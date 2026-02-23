@@ -1,0 +1,18 @@
+title: Torsten H.
+description: Senior Software Engineer (Fullstack)
+
+# Must match repo name: https://thotzl.github.io/CV/
+url: "https://thotzl.github.io"
+baseurl: "/CV"
+
+lang: de
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - _template-cv
+  - vendor
+  - vendor/bundle
+  - .bundle
+  - .jekyll-cache
+  - .sass-cache
