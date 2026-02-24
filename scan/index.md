@@ -20,11 +20,10 @@ Meine Arbeit bewegt sich bewusst über reine Implementierung hinaus: Systeme wer
 
 ---
 
-## Relevante Ergebnisse (Auszug)
+## Ausgewählte Ergebnisse (Auszug)
 
-- Auth-Migration mit ~33k Usern auf tenant-basierte Auth0-Struktur
-- ABS Store mit ~1.5k Produkten und ~200k Varianten in produktivem Setup; Kernintegration Planungssoftware "ABS Plan", weitere Integrationen u. a. Pimcore, HubSpot, SelectLine
-- Commerce-Testphase: In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).
+- Auth-Migration auf tenant-basierte Auth0-Struktur in einer großen Bestandsbasis
+- ABS Store als plattformintegrierte Commerce-Plattform; Kernintegration Planungssoftware "ABS Plan" inkl. Direkt-Checkout, weitere Integrationen u. a. Pimcore, HubSpot, SelectLine
 
 ---
 
@@ -38,11 +37,12 @@ _01/2021 – heute_
 - Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End-to-End-Verantwortung
 - Ich übernahm regelmäßig End-to-End-Verantwortung von der fachlichen Klärung über Architekturentscheidungen bis zur Umsetzung und dem stabilen Betrieb.
 - Federführende Modernisierung von ABS Doku (Refactoring, Migration PHP/Symfony -> TypeScript/NestJS)
-- Konzeption und Aufbau des ABS Store als Domain-Driven B2B-Commerce-Plattform (Medusa, Next.js), plattformintegriert in die ABS Service-Plattform
+- Konzeption und Aufbau des ABS Store als Domain-Driven B2B-Commerce-Plattform (Medusa, Next.js), plattformintegriert in die ABS Service-Plattform (produktives Setup; Größenordnung ~1.5k Produkte / ~200k Varianten)
 - Kernziel im Produktfluss: Kunden planen in der Planungssoftware "ABS Plan" und kaufen anschließend im Store
 - Konzeption/Umsetzung der "Theke" als Übergabeschicht zwischen der Planungssoftware "ABS Plan" und Warenkorb/Checkout zur Überführung von Planungsergebnissen in den Bestellprozess
+- In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).
 - Entwicklung eines skalierbaren Produktdatenservices mit plugin-basierter Import- und Transformationsarchitektur
-- Federführende Migration der Authentifizierung auf tenant-basierte Auth0-Lösung (~33k User)
+- Federführende Migration der Authentifizierung auf tenant-basierte Auth0-Lösung (rund 33k Nutzer)
 - Taskforce zur Stabilisierung eines Warehouse-Robotik-Systems inkl. Auto-Mode-Orchestrierung
 - Aufbau von Zero-Downtime-Deployments für On-Prem-Umgebungen (Docker, Traefik, GitHub Actions)
 - Fachliches Mentoring und technische Abstimmung mit externen Partneragenturen

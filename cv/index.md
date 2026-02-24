@@ -39,7 +39,7 @@ Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End
 - Architektur und Umsetzung eines skalierbaren Produktdatenservices zur Integration externer Hersteller- und Händlerdaten
 - Entwurf und Implementierung einer plugin-basierten Import- und Transformationsarchitektur
 - Entwicklung und Integration komplexer Preislogiken (mehrstufig, kundenspezifische Overrides)
-- Federführende Migration der Authentifizierung auf eine tenant-basierte Auth0-Lösung (~33k User)
+- Federführende Migration der Authentifizierung auf eine tenant-basierte Auth0-Lösung (rund 33k Nutzer)
 
 **AI & Automatisierung**
 
@@ -62,19 +62,19 @@ Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End
 - Mitarbeit im QS-Team sowie in teamübergreifenden Dev-Lead-Formaten
 - Teil des Erstkontakt- und Integrationsteams für einen strategischen neuen Partner
 
+**Wirkung (Auswahl)**
+
+- ABS Doku: deutlich reduzierte Bugrate, kaum noch API-bezogene Supportfälle; Performance-Verbesserungen in mehreren Heavy-Routen; stabile Frontend-States
+- ABS Store: Plattform im produktiven Setup (Größenordnung ~1.5k Produkte / ~200k Varianten); Kernintegration Planungssoftware "ABS Plan" inkl. Direkt-Checkout aus der Planung, zusätzliche Integrationen: Pimcore, HubSpot und SelectLine
+- In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).
+- Produktdatenservice: massive Reduktion manueller Datenpflege durch partnerfähige Importprozesse trotz stark heterogener Datenformate
+- Auth-Migration: stabil umgesetzt; nur Einzelfälle mit Umlautproblemen, vollständig behoben
+- Warehouse: nach deutlichem Performanceeinbruch stabilisiert; Zero-Downtime-Deployments produktiv im Einsatz
+- Delivery: von Deploys nach Feierabend zu kontinuierlicher Auslieferung mit Health-Checks, Traffic-Switch und schnellem Rollback
+
 **Technologien**
 
 TypeScript, Node.js/NestJS, Bun/Elysia, React, Next.js, Medusa, Drizzle, TypeORM, PostgreSQL, AWS, Docker, Traefik, Terraform, SQS, Lambda, Auth0, Pimcore, GitHub Actions
-
-**Impact**
-
-- ABS Doku: deutlich reduzierte Bugrate, kaum noch API-bezogene Supportfälle; Performance-Verbesserungen in mehreren Heavy-Routen; stabile Frontend-States
-- ABS Store: Plattform für ~1.5k Produkte und ~200k Varianten; Kernintegration Planungssoftware "ABS Plan" inkl. Direkt-Checkout aus der Planung, zusätzliche Integrationen: Pimcore, HubSpot und SelectLine
-- Commerce-Testgruppe: Bestellungen zuvor überwiegend telefonisch oder per E-Mail; In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).
-- Produktdatenservice: massive Reduktion manueller Datenpflege durch partnerfähige Importprozesse trotz stark heterogener Datenformate
-- Auth-Migration: ~33k User migriert, nur Einzelfälle mit Umlautproblemen, vollständig behoben
-- Warehouse: von ~60 % Performanceeinbruch zu stabilem und effizientem Betrieb; Zero-Downtime-Deployments produktiv im Einsatz
-- Delivery: von Deploys nach Feierabend zu kontinuierlicher Auslieferung mit Health-Checks, Traffic-Switch und schnellem Rollback
 
 ---
 
