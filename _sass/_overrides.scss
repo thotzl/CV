@@ -9,15 +9,22 @@ img[alt="Profil"] {
 }
 
 // Link color in content area only (not in header).
-.resume-body a {
-  color: #0088ee;
+.resume-wrapper-inner nav a,
+.resume-wrapper-inner .resume-body a {
+  color: #0088ee !important;
 }
-.resume-body a:hover,
-.resume-body a:focus,
-.resume-body a:active {
-  color: #0088ee;
+
+.resume-wrapper-inner nav a:hover,
+.resume-wrapper-inner nav a:focus,
+.resume-wrapper-inner nav a:active,
+.resume-wrapper-inner .resume-body a:hover,
+.resume-wrapper-inner .resume-body a:focus,
+.resume-wrapper-inner .resume-body a:active {
+  color: #0088ee !important;
 }
-.resume-body a:visited {
-  color: #0088ee;
+
+.resume-wrapper-inner nav a:visited,
+.resume-wrapper-inner .resume-body a:visited {
+  color: #0088ee !important;
 }
 

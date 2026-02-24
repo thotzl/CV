@@ -12,11 +12,11 @@ _Systemische Architektur, produktnahe Umsetzung und stabile Plattformen_
 
 ## Überblick
 
-Diese Seite dient als Einstieg zu den verschiedenen Profilversionen.
+Einstieg zu den verschiedenen Profilversionen:
 
-- [CV kompakt]({{ '/scan/' | relative_url }}) - schnelle Erstsicht mit den wichtigsten Fakten
-- [CV (ausführlich)]({{ '/cv/' | relative_url }}) - detaillierte Projekt- und Wirkungsdarstellung
-- [Lebenslauf (klassisch)]({{ '/lebenslauf/' | relative_url }}) - klassische, strukturierte Langform
+- **[CV kompakt]({{ '/scan/' | relative_url }})** – schnelle Erstsicht mit den wichtigsten Fakten
+- **[CV (ausführlich)]({{ '/cv/' | relative_url }})** – detaillierte Projekt- und Wirkungsdarstellung
+- **[Lebenslauf (klassisch)]({{ '/lebenslauf/' | relative_url }})** – klassische, strukturierte Langform
 
 ---
 
