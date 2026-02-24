@@ -6,7 +6,8 @@ header:
     - Fullstack
     - Tech Lead
   email: torsten.hoetzel@pixlich.de
-  phone: +491788982200
+  phone_raw: +491788982200
+  phone_display: "+49 178 898 22 00"
   website:
   linkedin: https://www.linkedin.com/in/thotzl/
   xing: https://www.xing.com/profile/Torsten_Hoetzel

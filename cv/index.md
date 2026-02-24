@@ -8,8 +8,6 @@ title: CV
 **Senior Software Engineer (Fullstack) · Tech Lead im Produktteam**  
 _Systemische Architektur, produktnahe Umsetzung und stabile Plattformen_
 
-[← Back]({{ '/' | relative_url }})
-
 ---
 
 ## Profil
@@ -171,7 +169,7 @@ Gestaltung resilienter Schnittstellen und Importarchitekturen zur Verarbeitung h
 
 ## Kontakt
 
-- Telefon: +49 178 8982200
+- Telefon: +49 178 898 22 00
 - E-Mail: torsten.hoetzel@pixlich.de
 - LinkedIn: <a href="https://www.linkedin.com/in/thotzl/"><i class="fa-brands fa-linkedin-in"></i> Profil</a>
 - Xing: <a href="https://www.xing.com/profile/Torsten_Hoetzel"><i class="fa-brands fa-xing"></i> Profil</a>

@@ -31,10 +31,10 @@
               </li>
             {% endif %}
 
-            {% if header.phone %}
+            {% if header.phone_raw or header.phone %}
               <li class="mb-2">
-                <a href="tel:{{ header.phone }}">
-                  <span class="fa-container text-center mr-2"><i class="fa-solid fa-phone"></i></span>{{ header.phone }}
+                <a href="tel:{{ header.phone_raw | default: header.phone }}">
+                  <span class="fa-container text-center mr-2"><i class="fa-solid fa-phone"></i></span>{{ header.phone_display | default: header.phone_raw | default: header.phone }}
                 </a>
               </li>
             {% endif %}
