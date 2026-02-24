@@ -1,5 +1,7 @@
 title: Torsten H.
 description: Senior Software Engineer (Fullstack)
+author: Torsten Hötzel
+tagline: Senior Software Engineer (Fullstack) · Tech Lead
 
 # Must match repo name: https://thotzl.github.io/CV/
 url: "https://thotzl.github.io"
@@ -10,6 +12,18 @@ markdown: kramdown
 permalink: pretty
 
 encoding: "utf-8"
+
+remote_theme: fculpo/jekyll-theme-pillar
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+theme_skin: gray
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 exclude:
   - _template-cv

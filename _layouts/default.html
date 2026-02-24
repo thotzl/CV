@@ -1,57 +1,35 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'de' }}">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ site.description }}">
-  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
-  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
-</head>
+{% include head.html %}
 <body>
-  <nav>
-    <a href="{{ '/' | relative_url }}">Home</a>
-    · <a href="{{ '/scan/' | relative_url }}">Recruiter-Scan</a>
-    · <a href="{{ '/cv/' | relative_url }}">CV</a>
-    · <a href="{{ '/lebenslauf/' | relative_url }}">Lebenslauf</a>
-  </nav>
+  <div class="position-fixed p-3 d-print-none" style="top: 0; right: 0; z-index: 1000;">
+    <div class="d-flex" style="gap: 0.5rem;">
+      <button type="button" class="btn btn-sm theme-btn-on-bg" onclick="window.print()">Print</button>
+      <button type="button" class="btn btn-sm theme-btn-on-bg" data-share>Share</button>
+    </div>
+  </div>
 
-  <p>
-    <button type="button" onclick="window.print()">Print</button>
-    <button type="button" data-share>Share</button>
-  </p>
+  <div class="resume-wrapper">
+    <article class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
+      {% include header.html %}
 
-  <main>
-    {{ content }}
-  </main>
+      <div class="p-4">
+        <nav class="small">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          · <a href="{{ '/scan/' | relative_url }}">Recruiter-Scan</a>
+          · <a href="{{ '/cv/' | relative_url }}">CV</a>
+          · <a href="{{ '/lebenslauf/' | relative_url }}">Lebenslauf</a>
+        </nav>
+      </div>
 
-  <script>
-    (function () {
-      var shareButton = document.querySelector('[data-share]');
-      if (!shareButton) return;
+      <div class="resume-body p-5 pt-0">
+        {{ content }}
+      </div>
 
-      shareButton.addEventListener('click', function () {
-        var url = window.location.href;
+      {% include footer.html %}
+    </article>
+  </div>
 
-        if (navigator.share) {
-          navigator.share({ title: document.title, url: url }).catch(function () {});
-          return;
-        }
-
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(url).then(function () {
-            var prev = shareButton.textContent;
-            shareButton.textContent = 'Link kopiert';
-            window.setTimeout(function () { shareButton.textContent = prev; }, 1500);
-          }).catch(function () {
-            window.prompt('Link kopieren:', url);
-          });
-          return;
-        }
-
-        window.prompt('Link kopieren:', url);
-      });
-    })();
-  </script>
+  <script src="{{ '/assets/js/share.js' | relative_url }}"></script>
 </body>
 </html>

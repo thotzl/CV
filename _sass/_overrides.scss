@@ -1,0 +1,10 @@
+// Local overrides for Pillar theme.
+
+// Make profile pictures grayscale everywhere.
+.resume-header .picture,
+img[alt="Profile"],
+img[alt="Profil"] {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+

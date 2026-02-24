@@ -166,8 +166,8 @@ Fullstack-Entwicklung und technische Leitung mit Fokus auf Architektur, Domain-D
 
 ## Kontakt
 
-- Telefon: [folgt]
-- E-Mail: [folgt]
-- LinkedIn: [folgt]
-- Xing: [folgt]
-- Standort: [folgt]
+- Telefon: +49 178 8982200
+- E-Mail: torsten.hoetzel@pixlich.de
+- LinkedIn: https://www.linkedin.com/in/thotzl/
+- Xing: https://www.xing.com/profile/Torsten_Hoetzel
+- Standort: Bottrop, Deutschland
