@@ -29,4 +29,8 @@ Schwerpunkte liegen in technischer Führung, Integrationsarchitekturen und der U
 
 ## Kontakt
 
-- E-Mail: torsten.hoetzel@pixlich.de
+- Telefon: [folgt]
+- E-Mail: [folgt]
+- LinkedIn: [folgt]
+- Xing: [folgt]
+- Standort: [folgt]

@@ -28,7 +28,7 @@ Meine Arbeit bewegt sich bewusst über reine Implementierung hinaus: Systeme wer
 
 - Auth-Migration mit ~33k Usern auf tenant-basierte Auth0-Struktur
 - ABS Store mit ~1.5k Produkten und ~200k Varianten in produktivem Setup; Kernintegration Planungssoftware "ABS Plan", weitere Integrationen u. a. Pimcore, HubSpot, SelectLine
-- Commerce-Testgruppe mit bis zu ~100k EUR monatlichem Umsatz (laufend, ohne weiteren Ausbau/Rollout)
+- Commerce-Testphase: In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).
 
 ---
 
@@ -40,10 +40,11 @@ Meine Arbeit bewegt sich bewusst über reine Implementierung hinaus: Systeme wer
 _01/2021 – heute_
 
 - Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End-to-End-Verantwortung
+- Ich übernahm regelmäßig End-to-End-Verantwortung von der fachlichen Klärung über Architekturentscheidungen bis zur Umsetzung und dem stabilen Betrieb.
 - Federführende Modernisierung von ABS Doku (Refactoring, Migration PHP/Symfony -> TypeScript/NestJS)
 - Konzeption und Aufbau des ABS Store als Domain-Driven B2B-Commerce-Plattform (Medusa, Next.js), plattformintegriert in die ABS Service-Plattform
-- Kernziel im Produktfluss: Kunden planen in der Planungssoftware "ABS Plan" und kaufen anschliessend im Store
-- Konzeption/Umsetzung der "Theke" als Uebergabeschicht zwischen der Planungssoftware "ABS Plan" und Warenkorb/Checkout zur Ueberfuehrung von Planungsergebnissen in den Bestellprozess
+- Kernziel im Produktfluss: Kunden planen in der Planungssoftware "ABS Plan" und kaufen anschließend im Store
+- Konzeption/Umsetzung der "Theke" als Übergabeschicht zwischen der Planungssoftware "ABS Plan" und Warenkorb/Checkout zur Überführung von Planungsergebnissen in den Bestellprozess
 - Entwicklung eines skalierbaren Produktdatenservices mit plugin-basierter Import- und Transformationsarchitektur
 - Federführende Migration der Authentifizierung auf tenant-basierte Auth0-Lösung (~33k User)
 - Taskforce zur Stabilisierung eines Warehouse-Robotik-Systems inkl. Auto-Mode-Orchestrierung
@@ -112,3 +113,13 @@ Englisch (fließend)
 
 Seit 2001 Katastrophenschutz DRK Bottrop  
 (Rettungshelfer, Gruppenführer)
+
+---
+
+## Kontakt
+
+- Telefon: [folgt]
+- E-Mail: [folgt]
+- LinkedIn: [folgt]
+- Xing: [folgt]
+- Standort: [folgt]

@@ -1,26 +1,20 @@
 ---
-# Only the main Sass file needs front matter
 ---
 
 @charset "utf-8";
 
-// Gradfolio defaults
-$content-width: 800px;
-$on-phone: 450px;
-$on-palm: 660px;
-$on-laptop: 1000px;
+// online-cv expects these to exist via remote_theme.
+// We only add a tiny override import at the end.
 
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
-}
+{% if site.data.data.sidebar.position == 'left' %}
+$resume-order: 2;
+$sidebar-order: 1;
+{% else %}
+$resume-order: 1;
+$sidebar-order: 2;
+{% endif %}
 
-@import 'variables';
-@import 'footer-social';
-@import 'projects';
-@import 'profile';
-@import 'footer';
-@import 'style';
-@import 'google-fonts';
-@import 'syntax-highlighting';
+@import "skins/{{ site.theme_skin | default: 'blue' }}";
+@import "default";
+@import "overrides";
+

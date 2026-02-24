@@ -32,6 +32,7 @@ Zuvor mehrere Jahre Fullstack- und Frontend-Entwicklung bei adcada, handy.de und
 _01/2021 – heute_
 
 - Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End-to-End-Verantwortung
+- Ich übernahm regelmäßig End-to-End-Verantwortung von der fachlichen Klärung über Architekturentscheidungen bis zur Umsetzung und dem stabilen Betrieb.
 - Federführende Modernisierung der Dokumentationsplattform „ABS Doku“ (Frontend-Refactoring, Migration von PHP/Symfony zu TypeScript/NestJS)
 - Konzeption und Aufbau einer Domain-Driven B2B-E-Commerce-Plattform (ABS Store) auf Basis von Medusa und Next.js, eingebettet in die ABS Service-Plattform
 - Kernziel im Produktfluss: Kunden planen in der Planungssoftware "ABS Plan" und kaufen anschließend im Store
@@ -47,10 +48,10 @@ _01/2021 – heute_
 
 _Technologien: TypeScript, Node.js/NestJS, Bun/Elysia, React, Next.js, Medusa, Drizzle, TypeORM, PostgreSQL, AWS, Docker, Traefik, Terraform, SQS, Lambda, Auth0, Pimcore, GitHub Actions_
 
-**Ausgewaehlte Kennzahlen**
+**Ausgewählte Kennzahlen**
 - Auth-Migration: ~33k User
 - ABS Store: ~1.5k Produkte / ~200k Varianten
-- Commerce-Testgruppe: bis zu ~100k EUR monatlicher Umsatz (laufend, ohne weiteren Ausbau/Rollout)
+- Commerce-Testphase: In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).
 - ABS Store: Kernintegration Planungssoftware "ABS Plan", weitere Integrationen u. a. Pimcore, HubSpot, SelectLine
 
 ---
@@ -158,3 +159,15 @@ Fullstack-Entwicklung und technische Leitung mit Fokus auf Architektur, Domain-D
 ## Weiteres
 
 **Ehrenamt:** Seit 2001 Mitglied im Katastrophenschutz des Deutschen Roten Kreuzes Bottrop, seit 2008 in der Reserve. Ausbildungen u. a. zum Rettungshelfer und Gruppenführer der Einsatzeinheit.
+
+**Persönliches:** Verheiratet, zwei Kinder. Wohnhaft in Bottrop. Geboren am 20.08.1985 in Deutschland.
+
+---
+
+## Kontakt
+
+- Telefon: [folgt]
+- E-Mail: [folgt]
+- LinkedIn: [folgt]
+- Xing: [folgt]
+- Standort: [folgt]

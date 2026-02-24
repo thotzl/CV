@@ -1,0 +1,15 @@
+sidebar:
+  # Keep for future: online-cv supports 'left' or 'right'
+  position: right
+
+  # Profile information
+  name: Torsten Hötzel
+  tagline: Senior Software Engineer (Fullstack) · Tech Lead
+
+  # Contact placeholders (fill later)
+  email: "[E-Mail folgt]"
+  phone: "[Telefon folgt]"
+  linkedin: "[LinkedIn folgt]"
+  xing: "[Xing folgt]"
+  location: "[Standort folgt]"
+

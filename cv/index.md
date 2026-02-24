@@ -32,7 +32,7 @@ Ich gestalte und verantworte in cross-funktionalen Teams plattformintegrierte So
 **Senior Software Engineer (Fullstack)**  
 _01/2021 – heute_
 
-Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End-to-End-Verantwortung. Dabei enge Zusammenarbeit mit Produktmanagement und Fachbereichen zur Übersetzung fachlicher Anforderungen in tragfähige Systemlösungen.
+Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End-to-End-Verantwortung. Ich übernahm regelmäßig End-to-End-Verantwortung von der fachlichen Klärung über Architekturentscheidungen bis zur Umsetzung und dem stabilen Betrieb. Dabei enge Zusammenarbeit mit Produktmanagement und Fachbereichen zur Übersetzung fachlicher Anforderungen in tragfähige Systemlösungen.
 
 **Plattform- und Produktarbeit**
 
@@ -74,7 +74,7 @@ TypeScript, Node.js/NestJS, Bun/Elysia, React, Next.js, Medusa, Drizzle, TypeORM
 
 - ABS Doku: deutlich reduzierte Bugrate, kaum noch API-bezogene Supportfälle; Performance-Verbesserungen in mehreren Heavy-Routen; stabile Frontend-States
 - ABS Store: Plattform für ~1.5k Produkte und ~200k Varianten; Kernintegration Planungssoftware "ABS Plan" inkl. Direkt-Checkout aus der Planung, zusätzliche Integrationen: Pimcore, HubSpot und SelectLine
-- Commerce-Testgruppe: Bestellungen zuvor ueberwiegend telefonisch oder per E-Mail; digitaler Kanal mit bis zu ~100k EUR monatlichem Umsatz (laufend, ohne weiteren Ausbau/Rollout)
+- Commerce-Testgruppe: Bestellungen zuvor überwiegend telefonisch oder per E-Mail; In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).
 - Produktdatenservice: massive Reduktion manueller Datenpflege durch partnerfähige Importprozesse trotz stark heterogener Datenformate
 - Auth-Migration: ~33k User migriert, nur Einzelfälle mit Umlautproblemen, vollständig behoben
 - Warehouse: von ~60 % Performanceeinbruch zu stabilem und effizientem Betrieb; Zero-Downtime-Deployments produktiv im Einsatz
@@ -170,6 +170,14 @@ Gestaltung resilienter Schnittstellen und Importarchitekturen zur Verarbeitung h
 - Exploration von AI/LLM-gestützten Automatisierungslösungen
 
 ---
+
+## Kontakt
+
+- Telefon: [folgt]
+- E-Mail: [folgt]
+- LinkedIn: [folgt]
+- Xing: [folgt]
+- Standort: [folgt]
 
 ## Ausbildung
 
