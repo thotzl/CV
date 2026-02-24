@@ -27,8 +27,8 @@ Meine Arbeit bewegt sich bewusst über reine Implementierung hinaus: Systeme wer
 ## Relevante Ergebnisse (Auszug)
 
 - Auth-Migration mit ~33k Usern auf tenant-basierte Auth0-Struktur
-- ABS Store mit ~1.5k Produkten und ~200k Varianten in produktivem Setup
-- Commerce-Testrollout mit ~100k EUR Umsatz in kleiner Kundentestgruppe
+- ABS Store mit ~1.5k Produkten und ~200k Varianten in produktivem Setup; Kernintegration ABS Plan (vormals Draw), weitere Integrationen u. a. Pimcore, HubSpot, SelectLine
+- Commerce-Testgruppe mit bis zu ~100k EUR monatlichem Umsatz (laufend, ohne weiteren Ausbau/Rollout)
 
 ---
 
@@ -41,7 +41,9 @@ _01/2021 – heute_
 
 - Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End-to-End-Verantwortung
 - Federführende Modernisierung von ABS Doku (Refactoring, Migration PHP/Symfony -> TypeScript/NestJS)
-- Konzeption und Aufbau des ABS Store als Domain-Driven B2B-Commerce-Plattform (Medusa, Next.js)
+- Konzeption und Aufbau des ABS Store als Domain-Driven B2B-Commerce-Plattform (Medusa, Next.js), plattformintegriert in die ABS Service-Plattform
+- Kernziel im Produktfluss: Kunden planen in ABS Plan (vormals Draw) und kaufen anschliessend im Store
+- Konzeption/Umsetzung der "Theke" als Uebergabeschicht zwischen ABS Plan (vormals Draw) und Warenkorb/Checkout zur Ueberfuehrung von Planungsergebnissen in den Bestellprozess
 - Entwicklung eines skalierbaren Produktdatenservices mit plugin-basierter Import- und Transformationsarchitektur
 - Federführende Migration der Authentifizierung auf tenant-basierte Auth0-Lösung (~33k User)
 - Taskforce zur Stabilisierung eines Warehouse-Robotik-Systems inkl. Auto-Mode-Orchestrierung

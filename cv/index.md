@@ -36,7 +36,9 @@ Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End
 **Plattform- und Produktarbeit**
 
 - Federführende Modernisierung der Dokumentationsplattform „ABS Doku“ (Frontend-Refactoring, Migration von PHP/Symfony zu TypeScript/NestJS)
-- Konzeption und Aufbau einer Domain-Driven B2B-E-Commerce-Plattform (ABS Store) auf Basis von Medusa und Next.js
+- Konzeption und Aufbau einer Domain-Driven B2B-E-Commerce-Plattform (ABS Store) auf Basis von Medusa und Next.js, eingebettet in die ABS Service-Plattform
+- Kernziel im Produktfluss: Kunden planen in ABS Plan (vormals Draw) und kaufen anschließend im Store
+- Konzeption/Umsetzung der "Theke" als Übergabeschicht zwischen ABS Plan (vormals Draw) und Warenkorb/Checkout zur Überführung von Planungsergebnissen in den Bestellprozess
 - Architektur und Umsetzung eines skalierbaren Produktdatenservices zur Integration externer Hersteller- und Händlerdaten
 - Entwurf und Implementierung einer plugin-basierten Import- und Transformationsarchitektur
 - Entwicklung und Integration komplexer Preislogiken (mehrstufig, kundenspezifische Overrides)
@@ -70,7 +72,8 @@ TypeScript, Node.js/NestJS, Bun/Elysia, React, Next.js, Medusa, Drizzle, TypeORM
 **Impact**
 
 - ABS Doku: deutlich reduzierte Bugrate, kaum noch API-bezogene Supportfälle; Performance-Verbesserungen in mehreren Heavy-Routen; stabile Frontend-States
-- ABS Store: Plattform für ~1.5k Produkte und ~200k Varianten; Integration von ABS Plan, Pimcore, HubSpot und SelectLine
+- ABS Store: Plattform für ~1.5k Produkte und ~200k Varianten; Kernintegration ABS Plan (vormals Draw) inkl. Direkt-Checkout aus der Planung, zusätzliche Integrationen: Pimcore, HubSpot und SelectLine
+- Commerce-Testgruppe: Bestellungen zuvor ueberwiegend telefonisch oder per E-Mail; digitaler Kanal mit bis zu ~100k EUR monatlichem Umsatz (laufend, ohne weiteren Ausbau/Rollout)
 - Produktdatenservice: massive Reduktion manueller Datenpflege durch partnerfähige Importprozesse trotz stark heterogener Datenformate
 - Auth-Migration: ~33k User migriert, nur Einzelfälle mit Umlautproblemen, vollständig behoben
 - Warehouse: von ~60 % Performanceeinbruch zu stabilem und effizientem Betrieb; Zero-Downtime-Deployments produktiv im Einsatz

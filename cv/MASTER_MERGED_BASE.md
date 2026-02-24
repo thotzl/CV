@@ -25,7 +25,7 @@ Diese Datei ist die gemeinsame Faktenbasis fuer:
 
 - Auth-Migration: **~33k User**
 - ABS Store: **~1.5k Produkte / ~200k Varianten**
-- Commerce-Testgruppe: **~100k EUR Umsatz**
+- Commerce-Testgruppe: **bis zu ~100k EUR monatlicher Umsatz (laufend, ohne weiteren Ausbau/Rollout)**
 
 ## Berufsstationen (kanonisch)
 
@@ -40,7 +40,10 @@ Diese Datei ist die gemeinsame Faktenbasis fuer:
 
 - Technische Leitung im cross-funktionalen Produktteam
 - ABS Doku Modernisierung (PHP/Symfony -> TypeScript/NestJS)
-- ABS Store (Domain-Driven B2B-Commerce auf Medusa/Next.js)
+- ABS Store als plattformintegriertes Produkt in der ABS Service-Plattform (Domain-Driven B2B-Commerce auf Medusa/Next.js)
+- Kernziel im Produktfluss: Kunden planen in ABS Plan (vormals Draw) und kaufen anschliessend im Store
+- Konzeption/Umsetzung der "Theke" als Uebergabeschicht zwischen ABS Plan (vormals Draw) und Warenkorb/Checkout zur Ueberfuehrung von Planungsergebnissen in den Bestellprozess
+- Kernintegration ABS Plan (vormals Draw), weitere Integrationen u. a. Pimcore, HubSpot, SelectLine
 - Produktdatenservice mit plugin-basierter Import-/Transformationsarchitektur
 - Auth0-Tenant-Migration (~33k User)
 - Warehouse-Robotik-Stabilisierung inkl. Auto-Mode-Orchestrierung

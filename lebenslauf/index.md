@@ -33,7 +33,9 @@ _01/2021 – heute_
 
 - Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End-to-End-Verantwortung
 - Federführende Modernisierung der Dokumentationsplattform „ABS Doku“ (Frontend-Refactoring, Migration von PHP/Symfony zu TypeScript/NestJS)
-- Konzeption und Aufbau einer Domain-Driven B2B-E-Commerce-Plattform (ABS Store) auf Basis von Medusa und Next.js
+- Konzeption und Aufbau einer Domain-Driven B2B-E-Commerce-Plattform (ABS Store) auf Basis von Medusa und Next.js, eingebettet in die ABS Service-Plattform
+- Kernziel im Produktfluss: Kunden planen in ABS Plan (vormals Draw) und kaufen anschließend im Store
+- Konzeption/Umsetzung der "Theke" als Übergabeschicht zwischen ABS Plan (vormals Draw) und Warenkorb/Checkout zur Überführung von Planungsergebnissen in den Bestellprozess
 - Entwicklung und Integration individueller Preislogiken in bestehende Unternehmensservices
 - Architektur und Umsetzung eines skalierbaren Produktdatenservices zur Integration externer Hersteller- und Händlerdaten
 - Entwurf und Implementierung einer plugin-basierten Import- und Transformationsarchitektur
@@ -48,7 +50,8 @@ _Technologien: TypeScript, Node.js/NestJS, Bun/Elysia, React, Next.js, Medusa, D
 **Ausgewaehlte Kennzahlen**
 - Auth-Migration: ~33k User
 - ABS Store: ~1.5k Produkte / ~200k Varianten
-- Commerce-Testgruppe: ~100k EUR Umsatz
+- Commerce-Testgruppe: bis zu ~100k EUR monatlicher Umsatz (laufend, ohne weiteren Ausbau/Rollout)
+- ABS Store: Kernintegration ABS Plan (vormals Draw), weitere Integrationen u. a. Pimcore, HubSpot, SelectLine
 
 ---
 
