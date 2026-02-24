@@ -8,3 +8,16 @@ img[alt="Profil"] {
   -webkit-filter: grayscale(100%);
 }
 
+// Link color in content area only (not in header).
+.resume-body a {
+  color: #0088ee;
+}
+.resume-body a:hover,
+.resume-body a:focus,
+.resume-body a:active {
+  color: #0088ee;
+}
+.resume-body a:visited {
+  color: #0088ee;
+}
+

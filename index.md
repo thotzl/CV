@@ -14,7 +14,7 @@ _Systemische Architektur, produktnahe Umsetzung und stabile Plattformen_
 
 Diese Seite dient als Einstieg zu den verschiedenen Profilversionen.
 
-- [Recruiter-Scan (kompakt)]({{ '/scan/' | relative_url }}) - schnelle Erstsicht mit den wichtigsten Fakten
+- [CV kompakt]({{ '/scan/' | relative_url }}) - schnelle Erstsicht mit den wichtigsten Fakten
 - [CV (ausführlich)]({{ '/cv/' | relative_url }}) - detaillierte Projekt- und Wirkungsdarstellung
 - [Lebenslauf (klassisch)]({{ '/lebenslauf/' | relative_url }}) - klassische, strukturierte Langform
 
@@ -31,6 +31,6 @@ Schwerpunkte liegen in technischer Führung, Integrationsarchitekturen und der U
 
 - Telefon: +49 178 8982200
 - E-Mail: torsten.hoetzel@pixlich.de
-- LinkedIn: https://www.linkedin.com/in/thotzl/
-- Xing: https://www.xing.com/profile/Torsten_Hoetzel
+- LinkedIn: <a href="https://www.linkedin.com/in/thotzl/"><i class="fa-brands fa-linkedin-in"></i> Profil</a>
+- Xing: <a href="https://www.xing.com/profile/Torsten_Hoetzel"><i class="fa-brands fa-xing"></i> Profil</a>
 - Standort: Bottrop, Deutschland
