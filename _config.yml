@@ -9,17 +9,7 @@ lang: de
 markdown: kramdown
 permalink: pretty
 
-theme_skin: blue
 encoding: "utf-8"
-
-remote_theme: sharu725/online-cv
-
-plugins:
-  - jekyll-remote-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
 
 exclude:
   - _template-cv

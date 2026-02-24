@@ -1,4 +1,3 @@
 # GitHub Pages + Jekyll (matches GitHub's build environment)
 source "https://rubygems.org"
 gem "github-pages", group: :jekyll_plugins
-gem "jekyll-remote-theme"

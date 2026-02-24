@@ -1,58 +1,57 @@
----
-# Add "layout: compress" here to compress the html code
----
-
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'de' }}">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+</head>
+<body>
+  <nav>
+    <a href="{{ '/' | relative_url }}">Home</a>
+    · <a href="{{ '/scan/' | relative_url }}">Recruiter-Scan</a>
+    · <a href="{{ '/cv/' | relative_url }}">CV</a>
+    · <a href="{{ '/lebenslauf/' | relative_url }}">Lebenslauf</a>
+  </nav>
 
-    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
+  <p>
+    <button type="button" onclick="window.print()">Print</button>
+    <button type="button" data-share>Share</button>
+  </p>
 
-    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
-    <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <main>
+    {{ content }}
+  </main>
 
-    <link rel="stylesheet" href="{{ '/assets/plugins/bootstrap/css/bootstrap.min.css' | relative_url }}" />
-    <link rel="stylesheet" href="{{ '/assets/plugins/font-awesome/css/all.min.css' | relative_url }}" />
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
-  </head>
+  <script>
+    (function () {
+      var shareButton = document.querySelector('[data-share]');
+      if (!shareButton) return;
 
-  <body>
-    <button class="print-button d-print-none" type="button" onclick="window.print()">
-      <i class="fas fa-print"></i> Print
-    </button>
+      shareButton.addEventListener('click', function () {
+        var url = window.location.href;
 
-    <button class="share-button d-print-none" type="button" data-share>
-      <i class="fas fa-share-nodes"></i> Share
-    </button>
+        if (navigator.share) {
+          navigator.share({ title: document.title, url: url }).catch(function () {});
+          return;
+        }
 
-    <div class="wrapper">
-      <div class="sidebar-wrapper">
-        <div class="profile-container">
-          <img class="avatar" src="{{ '/assets/154.png' | relative_url }}" alt="Profile" />
-          <h1 class="name">{{ site.title }}</h1>
-          <h3 class="tagline">{{ site.description }}</h3>
-        </div>
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(url).then(function () {
+            var prev = shareButton.textContent;
+            shareButton.textContent = 'Link kopiert';
+            window.setTimeout(function () { shareButton.textContent = prev; }, 1500);
+          }).catch(function () {
+            window.prompt('Link kopieren:', url);
+          });
+          return;
+        }
 
-        <div class="contact-container container-block">
-          <h2 class="container-block-title">Navigation</h2>
-          <ul class="list-unstyled contact-list">
-            <li><i class="fas fa-house"></i><a href="{{ '/' | relative_url }}">Home</a></li>
-            <li><i class="fas fa-file-lines"></i><a href="{{ '/scan/' | relative_url }}">Recruiter-Scan</a></li>
-            <li><i class="fas fa-file"></i><a href="{{ '/cv/' | relative_url }}">CV</a></li>
-            <li><i class="fas fa-id-card"></i><a href="{{ '/lebenslauf/' | relative_url }}">Lebenslauf</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="main-wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
-  </body>
+        window.prompt('Link kopieren:', url);
+      });
+    })();
+  </script>
+</body>
 </html>
