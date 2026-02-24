@@ -10,8 +10,6 @@ _Systemische Architektur, produktnahe Umsetzung und stabile Plattformen_
 
 [← Zurück](../)
 
-![Profile](../assets/154.png)
-
 ---
 
 ## Profil
@@ -49,6 +47,7 @@ _01/2021 – heute_
 _Technologien: TypeScript, Node.js/NestJS, Bun/Elysia, React, Next.js, Medusa, Drizzle, TypeORM, PostgreSQL, AWS, Docker, Traefik, Terraform, SQS, Lambda, Auth0, Pimcore, GitHub Actions_
 
 **Ausgewählte Kennzahlen**
+
 - Auth-Migration: ~33k User
 - ABS Store: ~1.5k Produkte / ~200k Varianten
 - Commerce-Testphase: In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).

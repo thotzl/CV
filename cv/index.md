@@ -10,8 +10,6 @@ _Systemische Architektur, produktnahe Umsetzung und stabile Plattformen_
 
 [← Back]({{ '/' | relative_url }})
 
-![Profile]({{ '/assets/154.png' | relative_url }})
-
 ---
 
 ## Profil
