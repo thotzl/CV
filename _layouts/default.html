@@ -7,30 +7,27 @@
   <meta name="description" content="{{ site.description }}">
   <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
   <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
-  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap">
-      <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <nav class="site-nav">
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/lebenslauf/' | relative_url }}">Lebenslauf</a>
-        <a href="{{ '/cv/' | relative_url }}">CV</a>
-      </nav>
-    </div>
-  </header>
+  <nav class="links scroll">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/scan/' | relative_url }}">Recruiter-Scan</a>
+    <a href="{{ '/cv/' | relative_url }}">CV</a>
+    <a href="{{ '/lebenslauf/' | relative_url }}">Lebenslauf</a>
+  </nav>
 
-  <main class="wrap content">
+  <hr class="divider">
+
+  <main>
     {{ content }}
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <span>{{ site.title }}</span>
-      <span>·</span>
-      <span>{{ site.description }}</span>
-    </div>
+  <footer>
+    <p class="copy">
+      &copy; {{ site.title }} {{ site.time | date: '%Y' }}
+      · Last updated {{ site.time | date_to_long_string }}
+    </p>
   </footer>
 </body>
 </html>

@@ -16,11 +16,12 @@ _Systemische Architektur, produktnahe Umsetzung und stabile Plattformen_
 
 ## Profil
 
-Senior Software Engineer mit Fokus auf robuste Systemarchitektur, produktnahe Umsetzung und stabile Delivery in komplexen, gewachsenen Umfeldern. Ich arbeite bevorzugt dort, wo fachliche Anforderungen, technische Realität und operative Prozesse sauber zusammengeführt werden müssen.
+Ich gestalte und verantworte in cross-funktionalen Teams plattformintegrierte Softwaresysteme, die fachlich tragen, wartbar bleiben und im Betrieb stabil funktionieren.
 
-Mein Ansatz ist ganzheitlich: Gute Software entsteht nicht durch isolierte Implementierung, sondern durch echtes Problemverständnis. Deshalb denke ich Produkte konsequent aus Nutzer-, Prozess- und Systemperspektive — unabhängig davon, ob es sich um B2C-, B2B- oder interne Plattformen handelt. Ziel ist immer eine Lösung, die fachlich trägt, wartbar bleibt und unter realen Bedingungen zuverlässig funktioniert.
-
-In cross-funktionalen Teams übernehme ich regelmäßig technische Führungsverantwortung, strukturiere komplexe Vorhaben und begleite Systeme von der ersten Idee bis in den stabilen Betrieb. Dabei bewege ich mich bewusst an der Schnittstelle von Architektur, Produktanforderungen und operativer Umsetzung. Ergänzend beschäftige ich mich mit AI-gestützter Automatisierung und datengetriebenen Erweiterungen im Produktkontext.
+- Systemarchitektur und Integrationen (End-to-End gedacht: Nutzer → Prozess → System → Betrieb)
+- Produktnahe Umsetzung von komplexen Flows (inkl. Übergaben in Warenkorb/Checkout) in bestehende Service-Plattformen
+- Stabile Delivery & Betriebssicherheit (CI/CD, Zero-Downtime-Ansätze, Risiko-Reduktion)
+- Fachliche Führung in cross-funktionalen Teams (Strukturierung, Mentoring, Abstimmung mit Produkt/Fachbereichen/Partnern); pragmatische Exploration von AI/LLM für Automatisierung
 
 ---
 
@@ -37,8 +38,8 @@ Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End
 
 - Federführende Modernisierung der Dokumentationsplattform „ABS Doku“ (Frontend-Refactoring, Migration von PHP/Symfony zu TypeScript/NestJS)
 - Konzeption und Aufbau einer Domain-Driven B2B-E-Commerce-Plattform (ABS Store) auf Basis von Medusa und Next.js, eingebettet in die ABS Service-Plattform
-- Kernziel im Produktfluss: Kunden planen in ABS Plan (vormals Draw) und kaufen anschließend im Store
-- Konzeption/Umsetzung der "Theke" als Übergabeschicht zwischen ABS Plan (vormals Draw) und Warenkorb/Checkout zur Überführung von Planungsergebnissen in den Bestellprozess
+- Kernziel im Produktfluss: Kunden planen in der Planungssoftware "ABS Plan" und kaufen anschließend im Store
+- Konzeption/Umsetzung der "Theke" als Übergabeschicht zwischen der Planungssoftware "ABS Plan" und Warenkorb/Checkout zur Überführung von Planungsergebnissen in den Bestellprozess
 - Architektur und Umsetzung eines skalierbaren Produktdatenservices zur Integration externer Hersteller- und Händlerdaten
 - Entwurf und Implementierung einer plugin-basierten Import- und Transformationsarchitektur
 - Entwicklung und Integration komplexer Preislogiken (mehrstufig, kundenspezifische Overrides)
@@ -72,7 +73,7 @@ TypeScript, Node.js/NestJS, Bun/Elysia, React, Next.js, Medusa, Drizzle, TypeORM
 **Impact**
 
 - ABS Doku: deutlich reduzierte Bugrate, kaum noch API-bezogene Supportfälle; Performance-Verbesserungen in mehreren Heavy-Routen; stabile Frontend-States
-- ABS Store: Plattform für ~1.5k Produkte und ~200k Varianten; Kernintegration ABS Plan (vormals Draw) inkl. Direkt-Checkout aus der Planung, zusätzliche Integrationen: Pimcore, HubSpot und SelectLine
+- ABS Store: Plattform für ~1.5k Produkte und ~200k Varianten; Kernintegration Planungssoftware "ABS Plan" inkl. Direkt-Checkout aus der Planung, zusätzliche Integrationen: Pimcore, HubSpot und SelectLine
 - Commerce-Testgruppe: Bestellungen zuvor ueberwiegend telefonisch oder per E-Mail; digitaler Kanal mit bis zu ~100k EUR monatlichem Umsatz (laufend, ohne weiteren Ausbau/Rollout)
 - Produktdatenservice: massive Reduktion manueller Datenpflege durch partnerfähige Importprozesse trotz stark heterogener Datenformate
 - Auth-Migration: ~33k User migriert, nur Einzelfälle mit Umlautproblemen, vollständig behoben

@@ -1,0 +1,26 @@
+---
+# Only the main Sass file needs front matter
+---
+
+@charset "utf-8";
+
+// Gradfolio defaults
+$content-width: 800px;
+$on-phone: 450px;
+$on-palm: 660px;
+$on-laptop: 1000px;
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@import 'variables';
+@import 'footer-social';
+@import 'projects';
+@import 'profile';
+@import 'footer';
+@import 'style';
+@import 'google-fonts';
+@import 'syntax-highlighting';

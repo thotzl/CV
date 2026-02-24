@@ -9,6 +9,10 @@ lang: de
 markdown: kramdown
 permalink: pretty
 
+sass:
+  sass_dir: assets/css/_sass
+  style: compressed
+
 exclude:
   - _template-cv
   - vendor

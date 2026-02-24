@@ -16,7 +16,7 @@ _Systemische Architektur, produktnahe Umsetzung und stabile Plattformen_
 
 ## Profil
 
-Senior Engineer mit Fokus auf robuste, wartungsarme Softwaresysteme und deren Einbettung in funktionierende Produkt- und Prozesslandschaften.
+Ich gestalte in cross-funktionalen Teams plattformintegrierte Softwaresysteme, die fachlich tragen, wartbar bleiben und im Betrieb stabil funktionieren.
 
 Ich verbinde Architekturarbeit mit einem klaren Blick auf das tatsächliche Problem - technisch wie fachlich. Ziel ist nicht maximale Komplexität, sondern Lösungen, die stabil laufen, integrierbar bleiben und echten Nutzen erzeugen.
 
@@ -27,7 +27,7 @@ Meine Arbeit bewegt sich bewusst über reine Implementierung hinaus: Systeme wer
 ## Relevante Ergebnisse (Auszug)
 
 - Auth-Migration mit ~33k Usern auf tenant-basierte Auth0-Struktur
-- ABS Store mit ~1.5k Produkten und ~200k Varianten in produktivem Setup; Kernintegration ABS Plan (vormals Draw), weitere Integrationen u. a. Pimcore, HubSpot, SelectLine
+- ABS Store mit ~1.5k Produkten und ~200k Varianten in produktivem Setup; Kernintegration Planungssoftware "ABS Plan", weitere Integrationen u. a. Pimcore, HubSpot, SelectLine
 - Commerce-Testgruppe mit bis zu ~100k EUR monatlichem Umsatz (laufend, ohne weiteren Ausbau/Rollout)
 
 ---
@@ -42,8 +42,8 @@ _01/2021 – heute_
 - Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End-to-End-Verantwortung
 - Federführende Modernisierung von ABS Doku (Refactoring, Migration PHP/Symfony -> TypeScript/NestJS)
 - Konzeption und Aufbau des ABS Store als Domain-Driven B2B-Commerce-Plattform (Medusa, Next.js), plattformintegriert in die ABS Service-Plattform
-- Kernziel im Produktfluss: Kunden planen in ABS Plan (vormals Draw) und kaufen anschliessend im Store
-- Konzeption/Umsetzung der "Theke" als Uebergabeschicht zwischen ABS Plan (vormals Draw) und Warenkorb/Checkout zur Ueberfuehrung von Planungsergebnissen in den Bestellprozess
+- Kernziel im Produktfluss: Kunden planen in der Planungssoftware "ABS Plan" und kaufen anschliessend im Store
+- Konzeption/Umsetzung der "Theke" als Uebergabeschicht zwischen der Planungssoftware "ABS Plan" und Warenkorb/Checkout zur Ueberfuehrung von Planungsergebnissen in den Bestellprozess
 - Entwicklung eines skalierbaren Produktdatenservices mit plugin-basierter Import- und Transformationsarchitektur
 - Federführende Migration der Authentifizierung auf tenant-basierte Auth0-Lösung (~33k User)
 - Taskforce zur Stabilisierung eines Warehouse-Robotik-Systems inkl. Auto-Mode-Orchestrierung
