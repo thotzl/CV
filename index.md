@@ -29,8 +29,8 @@ Schwerpunkte liegen in technischer Führung, Integrationsarchitekturen und der U
 
 ## Kontakt
 
-- Telefon: +49 178 898 22 00
-- E-Mail: torsten.hoetzel@pixlich.de
+<!-- - Telefon: +49 178 898 22 00 -->
+<!-- - E-Mail: torsten.hoetzel@pixlich.de -->
 - LinkedIn: <a href="https://www.linkedin.com/in/thotzl/"><i class="fa-brands fa-linkedin-in"></i> Profil</a>
 - Xing: <a href="https://www.xing.com/profile/Torsten_Hoetzel"><i class="fa-brands fa-xing"></i> Profil</a>
 - Standort: Bottrop, Deutschland

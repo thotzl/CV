@@ -23,21 +23,9 @@
 
         <div class="secondary-info mt-4 mt-md-0">
           <ul class="resume-social list-unstyled mb-0">
-            {% if header.email %}
-              <li class="mb-2">
-                <a href="mailto:{{ header.email }}">
-                  <span class="fa-container text-center mr-2"><i class="fa-solid fa-envelope"></i></span>{{ header.email }}
-                </a>
-              </li>
-            {% endif %}
-
-            {% if header.phone_raw or header.phone %}
-              <li class="mb-2">
-                <a href="tel:{{ header.phone_raw | default: header.phone }}">
-                  <span class="fa-container text-center mr-2"><i class="fa-solid fa-phone"></i></span>{{ header.phone_display | default: header.phone_raw | default: header.phone }}
-                </a>
-              </li>
-            {% endif %}
+            {% comment %}
+              E-Mail / Telefon intentionally omitted.
+            {% endcomment %}
 
             {% if header.linkedin %}
               <li class="mb-2">
