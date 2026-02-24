@@ -1,5 +1,10 @@
 header:
   avatar: 154.png
+  tagline_lines:
+    - Software Engineer
+    - Senior
+    - Fullstack
+    - Tech Lead
   email: torsten.hoetzel@pixlich.de
   phone: +491788982200
   website:

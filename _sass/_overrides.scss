@@ -28,3 +28,13 @@ img[alt="Profil"] {
   color: #0088ee !important;
 }
 
+// Header tagline: stacked keywords
+.resume-header .header-tagline-lines {
+  font-size: 1.1rem;
+  line-height: 1.3;
+}
+.resume-header .header-tagline-line {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+}
+
