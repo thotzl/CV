@@ -93,3 +93,20 @@
   color: rgba(255, 255, 255, 0.85);
 }
 
+// Mobile: align header contact icons/links to the left.
+@media (max-width: 767.98px) {
+  .resume-header .secondary-info {
+    text-align: left;
+  }
+
+  .resume-header .resume-social li a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .resume-header .resume-social .fa-container {
+    flex: 0 0 24px;
+  }
+}
+
