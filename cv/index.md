@@ -52,7 +52,7 @@ Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End
 - Einstieg in kritischer Projektphase nach deutlichem Performanceeinbruch im Lagerbetrieb
 - Konzeption und Umsetzung eines Auto-Mode zur koordinierten Bot-Steuerung
 - Refactoring des Frontends (State-Stabilität, Batch-Routen, Context-Struktur)
-- Aufbau einer Zero-Downtime-Deployment-Pipeline für On-Prem-Umgebungen (Docker, Traefik, GitHub Actions)
+- Aufbau einer CI/CD-Deployment-Pipeline und eines Zero-Downtime-Deploy-Ablaufs für On-Prem-Umgebungen (Docker, Traefik, GitHub Actions)
 - Einführung von Silent-Backend-Deployments und nutzergeführtem Frontend-Reload
 - Ergebnis: stabiler Lagerbetrieb ohne softwarebedingte Ausfälle, Releases nun kontinuierlich statt nur nach Feierabend möglich
 
