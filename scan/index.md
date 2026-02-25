@@ -37,14 +37,15 @@ _01/2021 – heute_
 - Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End-to-End-Verantwortung
 - Ich übernahm regelmäßig End-to-End-Verantwortung von der fachlichen Klärung über Architekturentscheidungen bis zur Umsetzung und dem stabilen Betrieb.
 - Federführende Modernisierung von ABS Doku (Refactoring, Migration PHP/Symfony -> TypeScript/NestJS)
-- Konzeption und Aufbau des ABS Store als Domain-Driven B2B-Commerce-Plattform (Medusa, Next.js), plattformintegriert in die ABS Service-Plattform (produktives Setup; Größenordnung ~1.5k Produkte / ~200k Varianten)
+- Konzeption und Aufbau des ABS Store als domänenorientierte B2B-Commerce-Plattform (Medusa, Next.js), plattformintegriert in die ABS Service-Plattform (produktives Setup; Größenordnung ~1.5k Produkte / ~200k Varianten)
 - Kernziel im Produktfluss: Kunden planen in der Planungssoftware "ABS Plan" und kaufen anschließend im Store
 - Konzeption/Umsetzung der "Theke" als Übergabeschicht zwischen der Planungssoftware "ABS Plan" und Warenkorb/Checkout zur Überführung von Planungsergebnissen in den Bestellprozess
 - In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).
 - Entwicklung eines skalierbaren Produktdatenservices mit plugin-basierter Import- und Transformationsarchitektur
 - Federführende Migration der Authentifizierung auf tenant-basierte Auth0-Lösung (rund 33k Nutzer)
 - Taskforce zur Stabilisierung eines Warehouse-Robotik-Systems inkl. Auto-Mode-Orchestrierung
-- Aufbau von Zero-Downtime-Deployments für On-Prem-Umgebungen (Docker, Traefik, GitHub Actions)
+- Aufbau einer CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Abläufen für On-Prem-Umgebungen (Docker, Traefik, GitHub Actions)
+- AWS-Integrationen (z. B. S3) und Lambda-basierte Sync-/Automationsstrecken umgesetzt; Infrastrukturänderungen via Terraform im Rahmen etablierter Team-Patterns.
 - Fachliches Mentoring und technische Abstimmung mit externen Partneragenturen
 
 **Technologien:** TypeScript, Node.js/NestJS, Bun/Elysia, React, Next.js, Medusa, Drizzle, TypeORM, PostgreSQL, AWS, Docker, Traefik, Terraform, SQS, Lambda, Auth0, Pimcore, GitHub Actions
@@ -116,6 +117,7 @@ Seit 2001 Katastrophenschutz DRK Bottrop
 
 <!-- - Telefon: +49 178 898 22 00 -->
 <!-- - E-Mail: torsten.hoetzel@pixlich.de -->
+
 - LinkedIn: <a href="https://www.linkedin.com/in/thotzl/"><i class="fa-brands fa-linkedin-in"></i> Profil</a>
 - Xing: <a href="https://www.xing.com/profile/Torsten_Hoetzel"><i class="fa-brands fa-xing"></i> Profil</a>
 - Standort: Bottrop, Deutschland

@@ -30,15 +30,16 @@ _01/2021 – heute_
 - Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End-to-End-Verantwortung
 - Ich übernahm regelmäßig End-to-End-Verantwortung von der fachlichen Klärung über Architekturentscheidungen bis zur Umsetzung und dem stabilen Betrieb.
 - Federführende Modernisierung der Dokumentationsplattform „ABS Doku“ (Frontend-Refactoring, Migration von PHP/Symfony zu TypeScript/NestJS)
-- Konzeption und Aufbau einer Domain-Driven B2B-E-Commerce-Plattform (ABS Store) auf Basis von Medusa und Next.js, eingebettet in die ABS Service-Plattform
+- Konzeption und Aufbau einer domänenorientierten B2B-E-Commerce-Plattform (ABS Store) auf Basis von Medusa und Next.js, eingebettet in die ABS Service-Plattform
 - Kernziel im Produktfluss: Kunden planen in der Planungssoftware "ABS Plan" und kaufen anschließend im Store
 - Konzeption/Umsetzung der "Theke" als Übergabeschicht zwischen der Planungssoftware "ABS Plan" und Warenkorb/Checkout zur Überführung von Planungsergebnissen in den Bestellprozess
 - Entwicklung und Integration individueller Preislogiken in bestehende Unternehmensservices
 - Architektur und Umsetzung eines skalierbaren Produktdatenservices zur Integration externer Hersteller- und Händlerdaten
 - Entwurf und Implementierung einer plugin-basierten Import- und Transformationsarchitektur
+- AWS-Integrationen (z. B. S3) und Lambda-basierte Sync-/Automationsstrecken umgesetzt; Infrastrukturänderungen via Terraform im Rahmen etablierter Team-Patterns.
 - Federführende Migration der Authentifizierung auf eine tenant-basierte Auth0-Lösung
 - Mitarbeit in einer Taskforce zur Stabilisierung eines Warehouse-Robotik-Systems inkl. Auto-Mode-Orchestrierung
-- Aufbau einer Zero-Downtime-Deployment-Pipeline für On-Prem-Umgebungen (Docker, Traefik, GitHub Actions)
+- Aufbau einer CI/CD-Deployment-Pipeline und eines Zero-Downtime-Deploy-Ablaufs für On-Prem-Umgebungen (Docker, Traefik, GitHub Actions)
 - Fachliches Mentoring von Teammitgliedern sowie technische Abstimmung mit externen Partneragenturen
 - Evaluation und prototypische Umsetzung von KI/LLM-Ansätzen zur Automatisierung von Datenimporten
 
@@ -133,7 +134,7 @@ _2006_
 
 ## Schwerpunkte
 
-Fullstack-Entwicklung und technische Leitung mit Fokus auf Architektur, Domain-Driven Design, B2B-E-Commerce sowie skalierbare Produktdaten- und Integrationsplattformen. Erfahrung mit modernen TypeScript/Node-Stacks, Zero-Downtime-Deployments und komplexen Systemintegrationen.
+Fullstack-Entwicklung und technische Leitung mit Fokus auf Architektur, domänenorientierte Systementwicklung, B2B-E-Commerce sowie skalierbare Produktdaten- und Integrationsplattformen. Erfahrung mit modernen TypeScript/Node-Stacks, CI/CD-Deployments und Zero-Downtime-Deploy-Abläufen in komplexen Systemintegrationen.
 
 ### Methoden & Technologien
 
@@ -164,6 +165,7 @@ Fullstack-Entwicklung und technische Leitung mit Fokus auf Architektur, Domain-D
 
 <!-- - Telefon: +49 178 898 22 00 -->
 <!-- - E-Mail: torsten.hoetzel@pixlich.de -->
+
 - LinkedIn: <a href="https://www.linkedin.com/in/thotzl/"><i class="fa-brands fa-linkedin-in"></i> Profil</a>
 - Xing: <a href="https://www.xing.com/profile/Torsten_Hoetzel"><i class="fa-brands fa-xing"></i> Profil</a>
 - Standort: Bottrop, Deutschland

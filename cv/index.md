@@ -33,11 +33,12 @@ Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End
 **Plattform- und Produktarbeit**
 
 - Federführende Modernisierung der Dokumentationsplattform „ABS Doku“ (Frontend-Refactoring, Migration von PHP/Symfony zu TypeScript/NestJS)
-- Konzeption und Aufbau einer Domain-Driven B2B-E-Commerce-Plattform (ABS Store) auf Basis von Medusa und Next.js, eingebettet in die ABS Service-Plattform
+- Konzeption und Aufbau einer domänenorientierten B2B-E-Commerce-Plattform (ABS Store) auf Basis von Medusa und Next.js, eingebettet in die ABS Service-Plattform
 - Kernziel im Produktfluss: Kunden planen in der Planungssoftware "ABS Plan" und kaufen anschließend im Store
 - Konzeption/Umsetzung der "Theke" als Übergabeschicht zwischen der Planungssoftware "ABS Plan" und Warenkorb/Checkout zur Überführung von Planungsergebnissen in den Bestellprozess
 - Architektur und Umsetzung eines skalierbaren Produktdatenservices zur Integration externer Hersteller- und Händlerdaten
 - Entwurf und Implementierung einer plugin-basierten Import- und Transformationsarchitektur
+- AWS-Integrationen (z. B. S3) und Lambda-basierte Sync-/Automationsstrecken umgesetzt; Infrastrukturänderungen via Terraform im Rahmen etablierter Team-Patterns.
 - Entwicklung und Integration komplexer Preislogiken (mehrstufig, kundenspezifische Overrides)
 - Federführende Migration der Authentifizierung auf eine tenant-basierte Auth0-Lösung (rund 33k Nutzer)
 
@@ -148,7 +149,7 @@ Entwurf und Weiterentwicklung wartbarer, integrierbarer Plattformen in gewachsen
 
 ### Delivery & Betriebssicherheit
 
-Aufbau belastbarer CI/CD-Pipelines, Zero-Downtime-Strategien und Observability-Grundlagen für kontinuierliche und risikoarme Auslieferung.
+Aufbau belastbarer CI/CD-Pipelines und Zero-Downtime-Strategien für Produkt-/On‑Prem‑Systeme und Service-Anwendungen (Release-Abläufe, Checks, Rollback-Pfade).
 
 ### Integration & Datenflüsse
 
@@ -171,6 +172,7 @@ Gestaltung resilienter Schnittstellen und Importarchitekturen zur Verarbeitung h
 
 <!-- - Telefon: +49 178 898 22 00 -->
 <!-- - E-Mail: torsten.hoetzel@pixlich.de -->
+
 - LinkedIn: <a href="https://www.linkedin.com/in/thotzl/"><i class="fa-brands fa-linkedin-in"></i> Profil</a>
 - Xing: <a href="https://www.xing.com/profile/Torsten_Hoetzel"><i class="fa-brands fa-xing"></i> Profil</a>
 - Standort: Bottrop, Deutschland
