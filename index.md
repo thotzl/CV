@@ -14,7 +14,8 @@ _Systemische Architektur, produktnahe Umsetzung und stabile Plattformen_
 
 Einstieg zu den verschiedenen Profilversionen:
 
-- **[CV]({{ '/cv/' | relative_url }})** – schnelle Erstsicht mit den wichtigsten Fakten
+- **[CV kompakt]({{ '/scan/' | relative_url }})** – schnelle Erstsicht mit den wichtigsten Fakten
+- **[CV (ausführlich)]({{ '/cv/' | relative_url }})** – detaillierte Projekt- und Wirkungsdarstellung
 - **[Lebenslauf (klassisch)]({{ '/lebenslauf/' | relative_url }})** – klassische, strukturierte Langform
 
 ---
