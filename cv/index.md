@@ -41,7 +41,6 @@ Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End
 **ABS Doku (Modernisierung)**
 
 - Frontend-Refactoring und Migration von PHP/Symfony zu TypeScript/NestJS in technischer Leitung und teamübergreifender Abstimmung
-  - **Wirkung:** deutlich reduzierte Bugrate, kaum noch API-bezogene Supportfälle; Performance-Verbesserungen in mehreren Heavy-Routen; stabile Frontend-States
 
 **ABS Store (Commerce + Checkout-Flow)**
 
@@ -56,19 +55,16 @@ Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End
 
 - Produktdatenservice für Hersteller-/Händlerdaten im Lead-Team konzipiert; Import-, Transformations- und Validierungsprinzip pro Produkttyp definiert
 - Datenannahmeweg inkl. erweiterbarem Plugin-/Hook-System konzipiert und umgesetzt – ausgelegt auf stark heterogene Datenstrukturen und schnelle Anpassung an neue Partnerformate; AWS‑basierte Import-/Sync‑Strecken (S3/Lambda) und Deploy im bestehenden Setup (Terraform nach Team-Patterns)
-  - **Wirkung:** partnerfähige Importprozesse etabliert; manuelle Datenpflege deutlich reduziert trotz heterogener Datenformate
 
 **Auth-Migration (Tenant-Setup)**
 
 - Datenmigration im Rahmen der tenant-basierten Auth0-Umstellung federführend verantwortet; Integration in die Systemlandschaft im Team abgestimmt (rund 33k Nutzer)
-  - **Wirkung:** stabil umgesetzt; nur Einzelfälle mit Umlautproblemen, vollständig behoben
 
 **Warehouse-Robotik (Taskforce / Stabilisierung)**
 
 - Auto-Mode zur koordinierten Bot-Steuerung konzipiert und umgesetzt
 - Frontend stabilisiert (State-Struktur, Batch-Routen, Context-Struktur)
 - On-Prem (lokaler Server): CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Ablauf umgesetzt (Docker, Traefik, GitHub Actions), inspiriert von internen Patterns
-  - **Wirkung:** nach deutlichem Performanceeinbruch stabilisiert; Zero-Downtime-Deployments produktiv im Einsatz. Deploys im Warehouse von nach Feierabend zu kontinuierlicher Auslieferung mit Health-Checks, Traffic-Switch und schnellem Rollback weiterentwickelt.
 
 **AI & Automatisierung (Exploration)**
 
@@ -81,6 +77,13 @@ Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End
 - Technische Abstimmung und Schnittstellenarbeit mit externen Partneragenturen
 - Mitarbeit im QS-Team sowie in teamübergreifenden Dev-Lead-Formaten
 - Teil des Erstkontakt- und Integrationsteams für einen strategischen neuen Partner
+
+**Ausgewählte Ergebnisse**
+
+- Stabilere Betriebsqualität und deutlich reduzierte Support-/Fehlerlast in zentralen Komponenten
+- Robuster Produktfluss von Planung bis Checkout; Integrationen über mehrere Systeme hinweg konsolidiert
+- Partnerfähige Importprozesse etabliert; manuelle Datenpflege deutlich reduziert trotz heterogener Datenformate
+- Im Warehouse: nach kritischer Phase stabilisiert; Zero-Downtime-Deployments produktiv im Einsatz und kontinuierlichere Auslieferung mit klaren Checks und schnellen Rollback-Pfaden ermöglicht
 
 **Technologien**
 

@@ -48,7 +48,7 @@ _01/2021 – heute_
 - Delivery & Betrieb: Services im bestehenden Setup produktionsfähig betrieben (CI/CD, Betriebskonfiguration)
 - Mentoring und technische Abstimmung mit externen Partneragenturen
 
-**Wirkung (Auswahl)**
+**Ausgewählte Ergebnisse**
 
 - Stabilere Betriebsqualität und deutlich reduzierte Support-/Fehlerlast in zentralen Komponenten
 - Robuster Produktfluss von Planung bis Checkout; Integrationen über mehrere Systeme hinweg konsolidiert
