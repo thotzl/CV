@@ -27,6 +27,7 @@ sass:
 
 exclude:
   - _template-cv
+  - hidden
   - vendor
   - vendor/bundle
   - .bundle
