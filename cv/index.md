@@ -37,7 +37,6 @@ Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End
 - Technische Leitplanken für Architektur, Konzeption und Umsetzung im Team gesetzt; Schnittstellen und Entscheidungen über Bereiche hinweg abgestimmt
 - Technologieauswahl für zentrale Komponenten im Austausch mit mehreren Teams/Abteilungen mitgeführt
 - Services im bestehenden Setup aufgesetzt und über mehrere Umgebungen hinweg produktionsfähig betrieben (inkl. CI/CD-Deployments und Betriebskonfiguration)
-  - **Wirkung:** von Deploys nach Feierabend zu kontinuierlicher Auslieferung mit Health-Checks, Traffic-Switch und schnellem Rollback
 
 **ABS Doku (Modernisierung)**
 
@@ -69,7 +68,7 @@ Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End
 - Auto-Mode zur koordinierten Bot-Steuerung konzipiert und umgesetzt
 - Frontend stabilisiert (State-Struktur, Batch-Routen, Context-Struktur)
 - On-Prem (lokaler Server): CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Ablauf umgesetzt (Docker, Traefik, GitHub Actions), inspiriert von internen Patterns
-  - **Wirkung:** nach deutlichem Performanceeinbruch stabilisiert; Zero-Downtime-Deployments produktiv im Einsatz
+  - **Wirkung:** nach deutlichem Performanceeinbruch stabilisiert; Zero-Downtime-Deployments produktiv im Einsatz. Deploys im Warehouse von nach Feierabend zu kontinuierlicher Auslieferung mit Health-Checks, Traffic-Switch und schnellem Rollback weiterentwickelt.
 
 **AI & Automatisierung (Exploration)**
 

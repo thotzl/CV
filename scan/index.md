@@ -53,7 +53,7 @@ _01/2021 – heute_
 - Stabilere Betriebsqualität und deutlich reduzierte Support-/Fehlerlast in zentralen Komponenten
 - Robuster Produktfluss von Planung bis Checkout; Integrationen über mehrere Systeme hinweg konsolidiert
 - Partnerfähige Importprozesse etabliert; manuelle Datenpflege deutlich reduziert trotz heterogener Datenformate
-- Kontinuierlichere Auslieferung mit klaren Checks und schnellen Rollback-Pfaden; Warehouse nach kritischer Phase stabilisiert
+- Im Warehouse: kontinuierlichere Auslieferung mit klaren Checks und schnellen Rollback-Pfaden; nach kritischer Phase stabilisiert
 
 **Technologien:** TypeScript, Node.js/NestJS, Bun/Elysia, React, Next.js, Medusa, Drizzle, TypeORM, PostgreSQL, AWS, Docker, Traefik, Terraform, SQS, Lambda, Auth0, Pimcore, GitHub Actions
 
