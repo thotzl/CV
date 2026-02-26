@@ -87,7 +87,7 @@ Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End
 
 **Technologien**
 
-TypeScript, Node.js/NestJS, Bun/Elysia, React, Next.js, Medusa, Drizzle, TypeORM, PostgreSQL, AWS, Docker, Traefik, Terraform, SQS, Lambda, Auth0, Pimcore, GitHub Actions
+TypeScript, Node.js, NestJS, Bun/Elysia, React, MobX, Next.js, Medusa, Drizzle, MikroORM, TypeORM, PostgreSQL, AWS, Docker, Traefik, Terraform, SQS, Lambda, Auth0, Pimcore, GitHub Actions
 
 ---
 
@@ -113,7 +113,7 @@ _01/2018 – 03/2020_
 - Koordination zwischen Design, Produktmanagement und IT
 - Neu- und Weiterentwicklung von Frontend (React, ExtJS) und Backend (PHP/Symfony/Zend)
 - Entwicklung komplexer Shopware-Plugins inkl. Self-Service-Terminal-Anbindung
-- Aufbau von PHP- und NodeJS-Services zur Prozessabwicklung (RabbitMQ, REST, SOAP, Puppeteer)
+- Aufbau von PHP- und Node.js-Services zur Prozessabwicklung (RabbitMQ, REST, SOAP, Puppeteer)
 - Technische und konzeptionelle Mitarbeit an mehreren Produktinitiativen
 
 ---
@@ -126,7 +126,7 @@ _06/2014 – 12/2017_
 - Frontend- und Backend-Umsetzung (JS, S/CSS, HTML, PHP/MVC)
 - Entwicklung einer SCSS/CSS-Methodik inkl. Framework
 - Konzeption und Umsetzung von UX/UI-Optimierungen und A/B-Tests
-- Aufbau und Standardisierung des Frontend-Buildprozesses inkl. eigener NodeJS-Module
+- Aufbau und Standardisierung des Frontend-Buildprozesses inkl. eigener Node.js-Module
 
 ---
 
@@ -171,8 +171,8 @@ Gestaltung resilienter Schnittstellen und Importarchitekturen zur Verarbeitung h
 
 ## Methoden & Arbeitsweisen
 
-- TypeScript, Node.js/NestJS, Bun/Elysia, React, Next.js, Medusa
-- PostgreSQL, Drizzle, TypeORM, REST, WebSocket, SQS, Lambda
+- TypeScript, Node.js, NestJS, Bun/Elysia, React, Next.js, Medusa
+- PostgreSQL, Drizzle, MikroORM, TypeORM, REST, WebSocket, SQS, Lambda
 - AWS, Docker, Terraform, Traefik, GitHub Actions
 - Auth0, Pimcore, plugin-basierte Importarchitekturen
 - Fachliche Führung, Mentoring, strukturierte Problemanalyse

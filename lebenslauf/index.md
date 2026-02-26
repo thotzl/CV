@@ -29,14 +29,14 @@ _01/2021 – heute_
 
 - Als Tech Lead fachliche Klärung, Architekturentscheidungen und Umsetzung im Team zusammengeführt und bis in den stabilen Betrieb begleitet (End-to-End-Verantwortung).
 - ABS Doku modernisiert (Frontend-Refactoring, Migration PHP/Symfony → TypeScript/NestJS) in technischer Leitung und teamübergreifender Abstimmung.
-- ABS Store als plattformintegrierter Kaufprozess (Medusa/Next.js): Produktfluss „ABS Plan“ → Warenkorb/Checkout inkl. „Theke“ und mehrstufigen Preislogiken (kundenspezifische Overrides); produktives Setup ~1.5k Produkte / ~200k Varianten; Integrationen u. a. Pimcore, HubSpot, SelectLine.
+- ABS Store als plattformintegrierter Kaufprozess (Medusa/Next.js) konzipiert und aufgebaut: Produktfluss „ABS Plan“ → Warenkorb/Checkout inkl. „Theke“ und mehrstufigen Preislogiken (kundenspezifische Overrides); produktives Setup ~1.5k Produkte / ~200k Varianten; Integrationen u. a. Pimcore, HubSpot, SelectLine.
 - In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).
 - Produktdatenservice für Hersteller-/Händlerdaten: plugin-/hook-basierte Import-, Transformations- und Validierungsarchitektur für heterogene Datenstrukturen (schnell anpassbar); AWS‑Strecken (S3/Lambda) im bestehenden Setup, Infrastrukturänderungen via Terraform im Rahmen etablierter Team-Patterns.
 - Tenant-basierte Auth0-Umstellung in der Bestandsbasis federführend begleitet (rund 33k Nutzer).
 - Warehouse-Robotik in Taskforce stabilisiert: Auto-Mode-Orchestrierung, Frontend-Stabilisierung sowie On-Prem CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Ablauf (Docker, Traefik, GitHub Actions).
 - AI/LLM: prototypischer Datenblatt-Import zur Reduktion manueller Produktpflege.
 
-_Technologien: TypeScript, Node.js/NestJS, Bun/Elysia, React, Next.js, Medusa, Drizzle, TypeORM, PostgreSQL, AWS, Docker, Traefik, Terraform, SQS, Lambda, Auth0, Pimcore, GitHub Actions_
+_Technologien: TypeScript, Node.js, NestJS, Bun/Elysia, React, MobX, Next.js, Medusa, Drizzle, MikroORM, TypeORM, PostgreSQL, AWS, Docker, Traefik, Terraform, SQS, Lambda, Auth0, Pimcore, GitHub Actions_
 
 ---
 
@@ -62,7 +62,7 @@ _01/2018 – 03/2020_
 - Koordination der Zusammenarbeit zwischen Design, Produktmanagement und IT
 - Fullstack-Entwicklung im Frontend (React, ExtJS, HTML, CSS/LESS) und Backend (PHP, Symfony, Zend)
 - Entwicklung komplexer Shopware-Plugins (u. a. Tarif-Device-Kombinationen, Self-Service-Terminal, EFT-Bezahlung)
-- Umsetzung von PHP- und NodeJS-Services zur nachgelagerten Prozessabwicklung via RabbitMQ
+- Umsetzung von PHP- und Node.js-Services zur nachgelagerten Prozessabwicklung via RabbitMQ
 - Technische Mitarbeit an Self-Service-Terminal-Lösungen für Prepaid-Produkte
 
 ---
@@ -76,7 +76,7 @@ _06/2014 – 12/2017_
 - Entwicklung einer SCSS/CSS-Methodik inkl. Framework
 - Konzeptionelle Mitarbeit bei UX/UI-Optimierungen
 - Technische Konzeption und Umsetzung von A/B-Tests
-- Aufbau des Frontend-Buildprozesses inkl. eigener NodeJS-Module
+- Aufbau des Frontend-Buildprozesses inkl. eigener Node.js-Module
 - Mitarbeit am technischen Relaunch der Plattform
 
 ---
@@ -125,8 +125,8 @@ Fullstack-Entwicklung und technische Leitung mit Fokus auf Architektur, domänen
 
 ### Methoden & Technologien
 
-- TypeScript, Node.js/NestJS, React, Next.js, Medusa, Bun/Elysia
-- Backend & Daten: PostgreSQL, Drizzle, TypeORM, REST, WebSocket, SQS, Lambda
+- TypeScript, Node.js, NestJS, React, Next.js, Medusa, Bun/Elysia
+- Backend & Daten: PostgreSQL, Drizzle, MikroORM, TypeORM, REST, WebSocket, SQS, Lambda
 - Cloud & DevOps: AWS, Docker, Terraform, Traefik, GitHub Actions
 - Identity & Integration: Auth0, Pimcore
 - Technische Leitung, Mentoring, Evaluierung von KI/LLM-Prototypen

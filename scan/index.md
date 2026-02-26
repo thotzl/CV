@@ -20,10 +20,12 @@ Meine Arbeit bewegt sich bewusst über reine Implementierung hinaus: Systeme wer
 
 ---
 
-## Ausgewählte Ergebnisse (Auszug)
+## Kurzüberblick
 
 - Auth-Migration auf tenant-basierte Auth0-Struktur in einer großen Bestandsbasis
-- ABS Store als plattformintegrierte Commerce-Plattform; Kernintegration Planungssoftware "ABS Plan" inkl. Direkt-Checkout, weitere Integrationen u. a. Pimcore, HubSpot, SelectLine
+- ABS Store als plattformintegrierte Commerce-Plattform konzipiert und aufgebaut; Kernintegration Planungssoftware "ABS Plan" inkl. Direkt-Checkout, weitere Integrationen u. a. Pimcore, HubSpot, SelectLine
+- Produktdatenservice mit plugin-/hook-basierter Import- und Validierungsarchitektur für heterogene Partnerformate
+- On-Prem CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Ablauf im Warehouse-Kontext umgesetzt 
 
 ---
 
@@ -55,7 +57,7 @@ _01/2021 – heute_
 - Partnerfähige Importprozesse etabliert; manuelle Datenpflege deutlich reduziert trotz heterogener Datenformate
 - Im Warehouse: kontinuierlichere Auslieferung mit klaren Checks und schnellen Rollback-Pfaden; nach kritischer Phase stabilisiert
 
-**Technologien:** TypeScript, Node.js/NestJS, Bun/Elysia, React, Next.js, Medusa, Drizzle, TypeORM, PostgreSQL, AWS, Docker, Traefik, Terraform, SQS, Lambda, Auth0, Pimcore, GitHub Actions
+**Technologien:** TypeScript, Node.js, NestJS, Bun/Elysia, React, MobX, Next.js, Medusa, Drizzle, MikroORM, TypeORM, PostgreSQL, AWS, Docker, Traefik, Terraform, SQS, Lambda, Auth0, Pimcore, GitHub Actions
 
 ---
 
@@ -71,7 +73,7 @@ _01/2021 – heute_
 
 - Koordination zwischen Design, Produktmanagement und IT
 - Entwicklung komplexer Shopware-Plugins inkl. Self-Service-Terminal-Integration
-- PHP- und NodeJS-Services zur Prozessabwicklung via RabbitMQ
+- PHP- und Node.js-Services zur Prozessabwicklung via RabbitMQ
 
 ### preis24.de GmbH - Frontend Developer / Teamlead Frontend (06/2014 - 12/2017)
 
