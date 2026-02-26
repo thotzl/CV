@@ -27,29 +27,16 @@ Zuvor mehrere Jahre Fullstack- und Frontend-Entwicklung bei adcada, handy.de und
 **Senior Software Engineer (Fullstack)**  
 _01/2021 – heute_
 
-- Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End-to-End-Verantwortung
-- Ich übernahm regelmäßig End-to-End-Verantwortung von der fachlichen Klärung über Architekturentscheidungen bis zur Umsetzung und dem stabilen Betrieb.
-- Federführende Modernisierung der Dokumentationsplattform „ABS Doku“ (Frontend-Refactoring, Migration von PHP/Symfony zu TypeScript/NestJS)
-- Konzeption und Aufbau einer domänenorientierten B2B-E-Commerce-Plattform (ABS Store) auf Basis von Medusa und Next.js, eingebettet in die ABS Service-Plattform
-- Kernziel im Produktfluss: Kunden planen in der Planungssoftware "ABS Plan" und kaufen anschließend im Store
-- Konzeption/Umsetzung der "Theke" als Übergabeschicht zwischen der Planungssoftware "ABS Plan" und Warenkorb/Checkout zur Überführung von Planungsergebnissen in den Bestellprozess
-- Entwicklung und Integration individueller Preislogiken in bestehende Unternehmensservices
-- Architektur und Umsetzung eines skalierbaren Produktdatenservices zur Integration externer Hersteller- und Händlerdaten
-- Entwurf und Implementierung einer plugin-basierten Import- und Transformationsarchitektur
-- AWS-Integrationen (z. B. S3) und Lambda-basierte Sync-/Automationsstrecken umgesetzt; Infrastrukturänderungen via Terraform im Rahmen etablierter Team-Patterns.
-- Federführende Migration der Authentifizierung auf eine tenant-basierte Auth0-Lösung
-- Mitarbeit in einer Taskforce zur Stabilisierung eines Warehouse-Robotik-Systems inkl. Auto-Mode-Orchestrierung
-- Aufbau einer CI/CD-Deployment-Pipeline und eines Zero-Downtime-Deploy-Ablaufs für On-Prem-Umgebungen (Docker, Traefik, GitHub Actions)
-- Fachliches Mentoring von Teammitgliedern sowie technische Abstimmung mit externen Partneragenturen
-- Evaluation und prototypische Umsetzung von KI/LLM-Ansätzen zur Automatisierung von Datenimporten
+- Als Tech Lead fachliche Klärung, Architekturentscheidungen und Umsetzung im Team zusammengeführt und bis in den stabilen Betrieb begleitet (End-to-End-Verantwortung).
+- ABS Doku modernisiert (Frontend-Refactoring, Migration PHP/Symfony → TypeScript/NestJS) in technischer Leitung und teamübergreifender Abstimmung.
+- ABS Store als plattformintegrierter Kaufprozess (Medusa/Next.js): Produktfluss „ABS Plan“ → Warenkorb/Checkout inkl. „Theke“ und mehrstufigen Preislogiken (kundenspezifische Overrides); produktives Setup ~1.5k Produkte / ~200k Varianten.
+- In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).
+- Produktdatenservice für Hersteller-/Händlerdaten: plugin-/hook-basierte Import-, Transformations- und Validierungsarchitektur für heterogene Datenstrukturen (schnell anpassbar); AWS‑Strecken (S3/Lambda) im bestehenden Setup, Infrastrukturänderungen via Terraform im Rahmen etablierter Team-Patterns.
+- Tenant-basierte Auth0-Umstellung in der Bestandsbasis federführend begleitet (rund 33k Nutzer).
+- Warehouse-Robotik in Taskforce stabilisiert: Auto-Mode-Orchestrierung, Frontend-Stabilisierung sowie On-Prem CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Ablauf (Docker, Traefik, GitHub Actions).
+- AI/LLM: prototypischer Datenblatt-Import zur Reduktion manueller Produktpflege.
 
 _Technologien: TypeScript, Node.js/NestJS, Bun/Elysia, React, Next.js, Medusa, Drizzle, TypeORM, PostgreSQL, AWS, Docker, Traefik, Terraform, SQS, Lambda, Auth0, Pimcore, GitHub Actions_
-
-**Ausgewählte Ergebnisse**
-
-- Auth-Migration auf tenant-basierte Auth0-Lösung (rund 33k Nutzer)
-- ABS Store im produktiven Setup (Größenordnung ~1.5k Produkte / ~200k Varianten); Kernintegration Planungssoftware "ABS Plan", weitere Integrationen u. a. Pimcore, HubSpot, SelectLine
-- In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).
 
 ---
 
@@ -157,7 +144,7 @@ Fullstack-Entwicklung und technische Leitung mit Fokus auf Architektur, domänen
 
 **Ehrenamt:** Seit 2001 Mitglied im Katastrophenschutz des Deutschen Roten Kreuzes Bottrop, seit 2008 in der Reserve. Ausbildungen u. a. zum Rettungshelfer und Gruppenführer der Einsatzeinheit.
 
-**Persönliches:** Verheiratet, zwei Kinder. Wohnhaft in Bottrop. Geboren am 20.08.1985 in Deutschland.
+**Persönliches:** Verheiratet, zwei Kinder. Geboren am 20.08.1985, Wohnhaft in Bottrop.
 
 ---
 

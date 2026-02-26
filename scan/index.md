@@ -34,19 +34,26 @@ Meine Arbeit bewegt sich bewusst über reine Implementierung hinaus: Systeme wer
 **Senior Software Engineer (Fullstack)**  
 _01/2021 – heute_
 
-- Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End-to-End-Verantwortung
-- Ich übernahm regelmäßig End-to-End-Verantwortung von der fachlichen Klärung über Architekturentscheidungen bis zur Umsetzung und dem stabilen Betrieb.
-- Federführende Modernisierung von ABS Doku (Refactoring, Migration PHP/Symfony -> TypeScript/NestJS)
-- Konzeption und Aufbau des ABS Store als domänenorientierte B2B-Commerce-Plattform (Medusa, Next.js), plattformintegriert in die ABS Service-Plattform (produktives Setup; Größenordnung ~1.5k Produkte / ~200k Varianten)
-- Kernziel im Produktfluss: Kunden planen in der Planungssoftware "ABS Plan" und kaufen anschließend im Store
-- Konzeption/Umsetzung der "Theke" als Übergabeschicht zwischen der Planungssoftware "ABS Plan" und Warenkorb/Checkout zur Überführung von Planungsergebnissen in den Bestellprozess
+- Als Tech Lead fachliche Klärung, Architekturentscheidungen und Umsetzung im Team zusammengeführt und bis in den stabilen Betrieb begleitet (End-to-End-Verantwortung).
+
+**Projekte & Produktarbeit (Auswahl)**
+
+- **ABS Doku:** Modernisierung (Refactoring, Migration PHP/Symfony → TypeScript/NestJS)
+- **ABS Store:** Konzeption und Aufbau als plattformintegrierter Kaufprozess (Medusa/Next.js); Produktfluss „ABS Plan“ → Checkout inkl. „Theke“ und Preislogiken; Größenordnung ~1.5k Produkte / ~200k Varianten; Integrationen u. a. Pimcore, HubSpot, SelectLine
 - In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).
-- Entwicklung eines skalierbaren Produktdatenservices mit plugin-basierter Import- und Transformationsarchitektur
-- Federführende Migration der Authentifizierung auf tenant-basierte Auth0-Lösung (rund 33k Nutzer)
-- Taskforce zur Stabilisierung eines Warehouse-Robotik-Systems inkl. Auto-Mode-Orchestrierung
-- Aufbau einer CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Abläufen für On-Prem-Umgebungen (Docker, Traefik, GitHub Actions)
-- AWS-Integrationen (z. B. S3) und Lambda-basierte Sync-/Automationsstrecken umgesetzt; Infrastrukturänderungen via Terraform im Rahmen etablierter Team-Patterns.
-- Fachliches Mentoring und technische Abstimmung mit externen Partneragenturen
+- **Produktdatenservice:** plugin-/hook-basierte Import-, Transformations- und Validierungsarchitektur für stark heterogene Partnerformate (schnell anpassbar); AWS‑basierte Import-/Sync‑Strecken (S3/Lambda) im bestehenden Setup (Terraform nach Team-Patterns)
+- **Auth-Migration:** tenant-basierte Auth0-Umstellung (rund 33k Nutzer)
+- **Warehouse-Robotik:** Stabilisierung in Taskforce inkl. Auto-Mode-Orchestrierung und Frontend-Stabilisierung; On-Prem CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Ablauf (Docker, Traefik, GitHub Actions)
+- **AI/LLM:** prototypischer Datenblatt-Import zur Reduktion manueller Produktpflege
+- Delivery & Betrieb: Services im bestehenden Setup produktionsfähig betrieben (CI/CD, Betriebskonfiguration)
+- Mentoring und technische Abstimmung mit externen Partneragenturen
+
+**Wirkung (Auswahl)**
+
+- Stabilere Betriebsqualität und deutlich reduzierte Support-/Fehlerlast in zentralen Komponenten
+- Robuster Produktfluss von Planung bis Checkout; Integrationen über mehrere Systeme hinweg konsolidiert
+- Partnerfähige Importprozesse etabliert; manuelle Datenpflege deutlich reduziert trotz heterogener Datenformate
+- Kontinuierlichere Auslieferung mit klaren Checks und schnellen Rollback-Pfaden; Warehouse nach kritischer Phase stabilisiert
 
 **Technologien:** TypeScript, Node.js/NestJS, Bun/Elysia, React, Next.js, Medusa, Drizzle, TypeORM, PostgreSQL, AWS, Docker, Traefik, Terraform, SQS, Lambda, Auth0, Pimcore, GitHub Actions
 

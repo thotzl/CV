@@ -28,33 +28,53 @@ Ich gestalte und verantworte in cross-funktionalen Teams plattformintegrierte So
 **Senior Software Engineer (Fullstack)**  
 _01/2021 – heute_
 
-Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End-to-End-Verantwortung. Ich übernahm regelmäßig End-to-End-Verantwortung von der fachlichen Klärung über Architekturentscheidungen bis zur Umsetzung und dem stabilen Betrieb. Dabei enge Zusammenarbeit mit Produktmanagement und Fachbereichen zur Übersetzung fachlicher Anforderungen in tragfähige Systemlösungen.
+Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End-to-End-Verantwortung. Als Tech Lead habe ich fachliche Klärung, Architekturentscheidungen und Umsetzung im Team zusammengeführt und die Lieferung bis in den stabilen Betrieb begleitet. Enge Zusammenarbeit mit Produktmanagement und Fachbereichen zur Übersetzung fachlicher Anforderungen in tragfähige Systemlösungen.
 
-**Plattform- und Produktarbeit**
+**Projekte & Produktarbeit**
 
-- Federführende Modernisierung der Dokumentationsplattform „ABS Doku“ (Frontend-Refactoring, Migration von PHP/Symfony zu TypeScript/NestJS)
-- Konzeption und Aufbau einer domänenorientierten B2B-E-Commerce-Plattform (ABS Store) auf Basis von Medusa und Next.js, eingebettet in die ABS Service-Plattform
-- Kernziel im Produktfluss: Kunden planen in der Planungssoftware "ABS Plan" und kaufen anschließend im Store
-- Konzeption/Umsetzung der "Theke" als Übergabeschicht zwischen der Planungssoftware "ABS Plan" und Warenkorb/Checkout zur Überführung von Planungsergebnissen in den Bestellprozess
-- Architektur und Umsetzung eines skalierbaren Produktdatenservices zur Integration externer Hersteller- und Händlerdaten
-- Entwurf und Implementierung einer plugin-basierten Import- und Transformationsarchitektur
-- AWS-Integrationen (z. B. S3) und Lambda-basierte Sync-/Automationsstrecken umgesetzt; Infrastrukturänderungen via Terraform im Rahmen etablierter Team-Patterns.
-- Entwicklung und Integration komplexer Preislogiken (mehrstufig, kundenspezifische Overrides)
-- Federführende Migration der Authentifizierung auf eine tenant-basierte Auth0-Lösung (rund 33k Nutzer)
+**Übergreifend (Architektur & Umsetzung im Team)**
 
-**AI & Automatisierung**
+- Technische Leitplanken für Architektur, Konzeption und Umsetzung im Team gesetzt; Schnittstellen und Entscheidungen über Bereiche hinweg abgestimmt
+- Technologieauswahl für zentrale Komponenten im Austausch mit mehreren Teams/Abteilungen mitgeführt
+- Services im bestehenden Setup aufgesetzt und über mehrere Umgebungen hinweg produktionsfähig betrieben (inkl. CI/CD-Deployments und Betriebskonfiguration)
+  - **Wirkung:** von Deploys nach Feierabend zu kontinuierlicher Auslieferung mit Health-Checks, Traffic-Switch und schnellem Rollback
+
+**ABS Doku (Modernisierung)**
+
+- Frontend-Refactoring und Migration von PHP/Symfony zu TypeScript/NestJS in technischer Leitung und teamübergreifender Abstimmung
+  - **Wirkung:** deutlich reduzierte Bugrate, kaum noch API-bezogene Supportfälle; Performance-Verbesserungen in mehreren Heavy-Routen; stabile Frontend-States
+
+**ABS Store (Commerce + Checkout-Flow)**
+
+- Technische Kernverantwortung für Konzeption und Aufbau des Stores (Medusa/Next.js) als plattformintegrierter Kaufprozess
+- Produktfluss: Planungssoftware „ABS Plan“ → Übergabe → Warenkorb/Checkout
+- Bestandteile des Shops: „Theke“ zur Überführung von Planungsergebnissen in den Bestellprozess; mehrstufige Preislogiken (kundenspezifische Overrides)
+- Integrationen u. a. Pimcore, HubSpot, SelectLine
+- Produktives Setup in der Größenordnung ~1.5k Produkte / ~200k Varianten
+- In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).
+
+**Produktdatenservice (Hersteller-/Händlerdaten)**
+
+- Produktdatenservice für Hersteller-/Händlerdaten im Lead-Team konzipiert; Import-, Transformations- und Validierungsprinzip pro Produkttyp definiert
+- Datenannahmeweg inkl. erweiterbarem Plugin-/Hook-System konzipiert und umgesetzt – ausgelegt auf stark heterogene Datenstrukturen und schnelle Anpassung an neue Partnerformate; AWS‑basierte Import-/Sync‑Strecken (S3/Lambda) und Deploy im bestehenden Setup (Terraform nach Team-Patterns)
+  - **Wirkung:** partnerfähige Importprozesse etabliert; manuelle Datenpflege deutlich reduziert trotz heterogener Datenformate
+
+**Auth-Migration (Tenant-Setup)**
+
+- Datenmigration im Rahmen der tenant-basierten Auth0-Umstellung federführend verantwortet; Integration in die Systemlandschaft im Team abgestimmt (rund 33k Nutzer)
+  - **Wirkung:** stabil umgesetzt; nur Einzelfälle mit Umlautproblemen, vollständig behoben
+
+**Warehouse-Robotik (Taskforce / Stabilisierung)**
+
+- Auto-Mode zur koordinierten Bot-Steuerung konzipiert und umgesetzt
+- Frontend stabilisiert (State-Struktur, Batch-Routen, Context-Struktur)
+- On-Prem (lokaler Server): CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Ablauf umgesetzt (Docker, Traefik, GitHub Actions), inspiriert von internen Patterns
+  - **Wirkung:** nach deutlichem Performanceeinbruch stabilisiert; Zero-Downtime-Deployments produktiv im Einsatz
+
+**AI & Automatisierung (Exploration)**
 
 - Exploration und prototypische Umsetzung eines LLM-gestützten Datenblatt-Imports zur Reduktion manueller Produktpflege
 - Evaluation von AI-Einsatzmöglichkeiten in internen Workflows und produktnahen Szenarien
-
-**Warehouse-Robotik Taskforce (Notfallteam)**
-
-- Einstieg in kritischer Projektphase nach deutlichem Performanceeinbruch im Lagerbetrieb
-- Konzeption und Umsetzung eines Auto-Mode zur koordinierten Bot-Steuerung
-- Refactoring des Frontends (State-Stabilität, Batch-Routen, Context-Struktur)
-- Aufbau einer CI/CD-Deployment-Pipeline und eines Zero-Downtime-Deploy-Ablaufs für On-Prem-Umgebungen (Docker, Traefik, GitHub Actions)
-- Einführung von Silent-Backend-Deployments und nutzergeführtem Frontend-Reload
-- Ergebnis: stabiler Lagerbetrieb ohne softwarebedingte Ausfälle, Releases nun kontinuierlich statt nur nach Feierabend möglich
 
 **Weitere Beiträge**
 
@@ -62,16 +82,6 @@ Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End
 - Technische Abstimmung und Schnittstellenarbeit mit externen Partneragenturen
 - Mitarbeit im QS-Team sowie in teamübergreifenden Dev-Lead-Formaten
 - Teil des Erstkontakt- und Integrationsteams für einen strategischen neuen Partner
-
-**Wirkung (Auswahl)**
-
-- ABS Doku: deutlich reduzierte Bugrate, kaum noch API-bezogene Supportfälle; Performance-Verbesserungen in mehreren Heavy-Routen; stabile Frontend-States
-- ABS Store: Plattform im produktiven Setup (Größenordnung ~1.5k Produkte / ~200k Varianten); Kernintegration Planungssoftware "ABS Plan" inkl. Direkt-Checkout aus der Planung, zusätzliche Integrationen: Pimcore, HubSpot und SelectLine
-- In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).
-- Produktdatenservice: massive Reduktion manueller Datenpflege durch partnerfähige Importprozesse trotz stark heterogener Datenformate
-- Auth-Migration: stabil umgesetzt; nur Einzelfälle mit Umlautproblemen, vollständig behoben
-- Warehouse: nach deutlichem Performanceeinbruch stabilisiert; Zero-Downtime-Deployments produktiv im Einsatz
-- Delivery: von Deploys nach Feierabend zu kontinuierlicher Auslieferung mit Health-Checks, Traffic-Switch und schnellem Rollback
 
 **Technologien**
 
