@@ -23,9 +23,10 @@ Meine Arbeit bewegt sich bewusst über reine Implementierung hinaus: Systeme wer
 ## Kurzüberblick
 
 - Auth-Migration auf tenant-basierte Auth0-Struktur in einer großen Bestandsbasis
-- ABS Store als plattformintegrierte Commerce-Plattform konzipiert und aufgebaut; Kernintegration Planungssoftware "ABS Plan" inkl. Direkt-Checkout, weitere Integrationen u. a. Pimcore, HubSpot, SelectLine
+- ABS Store als plattformintegrierte Commerce-Plattform; Kernintegration Planungssoftware "ABS
+  Plan" inkl. Direkt-Checkout, weitere Integrationen u. a. Pimcore, HubSpot, SelectLine
 - Produktdatenservice mit plugin-/hook-basierter Import- und Validierungsarchitektur für heterogene Partnerformate
-- On-Prem CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Ablauf im Warehouse-Kontext umgesetzt 
+- On-Prem CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Ablauf im Warehouse-Kontext umgesetzt
 
 ---
 
