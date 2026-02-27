@@ -44,7 +44,7 @@ _01/2021 – heute_
 - **ABS Doku:** Frontend-State-Stabilisierung und Refactoring von kritischen Routen (u. a. Batch-Routen)
 - **ABS Store:** Konzeption und Aufbau als plattformintegrierter Kaufprozess (Medusa/Next.js); Produktfluss „ABS Plan“ → Checkout inkl. „Theke“ und Preislogiken; Größenordnung ~1.5k Produkte / ~200k Varianten; Integrationen u. a. Pimcore, HubSpot, SelectLine
 - **ABS Store:** Order Processing und Order Splitting für mehrteilige Liefer- und Prozessketten umgesetzt; bis in stabilen Testbetrieb begleitet
-- In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).
+- In einer fortlaufenden Testphase wurde der integrierte Kaufprozess unter realen Bedingungen validiert und produktiv genutzt.
 - **Produktdatenservice:** plugin-/hook-basierte Import-, Transformations- und Validierungsarchitektur für stark heterogene Partnerformate (schnell anpassbar); AWS‑basierte Import-/Sync‑Strecken (S3/Lambda) im bestehenden Setup (Terraform nach Team-Patterns)
 - **Produktdatenservice:** Produkttyp-Anbindungen als skalierbares Muster vorbereitet und an Produktteams zur Umsetzung weiterer Formate übergeben
 - **Auth-Migration:** tenant-basierte Auth0-Umstellung (rund 33k Nutzer); Datenvollständigkeit und Rückwärtskompatibilität im Migrationspfad abgesichert

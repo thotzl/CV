@@ -53,7 +53,7 @@ Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End
 - Integrationen u. a. Pimcore, HubSpot, SelectLine
 - Produktives Setup in der Größenordnung ~1.5k Produkte / ~200k Varianten
 - System bis in den stabilen Testbetrieb begleitet (Stabilisierung, Fehleranalyse, Release-Abläufe)
-- In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).
+- In einer fortlaufenden Testphase wurde der integrierte Kaufprozess unter realen Bedingungen validiert und produktiv genutzt.
 
 **Produktdatenservice (Hersteller-/Händlerdaten)**
 
