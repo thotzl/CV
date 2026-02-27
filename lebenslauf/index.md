@@ -28,12 +28,13 @@ Zuvor mehrere Jahre Fullstack- und Frontend-Entwicklung bei adcada, handy.de und
 _01/2021 – heute_
 
 - Als Tech Lead fachliche Klärung, Architekturentscheidungen und Umsetzung im Team zusammengeführt und bis in den stabilen Betrieb begleitet (End-to-End-Verantwortung).
-- ABS Doku modernisiert (Frontend-Refactoring, Migration PHP/Symfony → TypeScript/NestJS) in technischer Leitung und teamübergreifender Abstimmung.
-- ABS Store als plattformintegrierter Kaufprozess (Medusa/Next.js): Produktfluss „ABS Plan“ → Warenkorb/Checkout inkl. „Theke“ und mehrstufigen Preislogiken (kundenspezifische Overrides); produktives Setup ~1.5k Produkte / ~200k Varianten; Integrationen u. a. Pimcore, HubSpot, SelectLine.
+- ABS Doku modernisiert (Frontend-Refactoring, Migration PHP/Symfony → TypeScript/NestJS) in technischer Leitung und teamübergreifender Abstimmung; komplexe Frontend-States stabilisiert und kritische Routen refactored (u. a. Batch-Routen).
+- ABS Store als plattformintegrierter Kaufprozess (Medusa/Next.js): Produktfluss „ABS Plan“ → Warenkorb/Checkout inkl. „Theke“ und mehrstufigen Preislogiken (kundenspezifische Overrides); Order Processing und Order Splitting für mehrteilige Liefer- und Prozessketten umgesetzt; bis in stabilen Testbetrieb begleitet; produktives Setup ~1.5k Produkte / ~200k Varianten; Integrationen u. a. Pimcore, HubSpot, SelectLine.
 - In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).
 - Produktdatenservice für Hersteller-/Händlerdaten: plugin-/hook-basierte Import-, Transformations- und Validierungsarchitektur für heterogene Datenstrukturen (schnell anpassbar); AWS‑Strecken (S3/Lambda) im bestehenden Setup, Infrastrukturänderungen via Terraform im Rahmen etablierter Team-Patterns.
-- Tenant-basierte Auth0-Umstellung in der Bestandsbasis federführend begleitet (rund 33k Nutzer).
-- Warehouse-Robotik in Taskforce stabilisiert: Auto-Mode-Orchestrierung, Frontend-Stabilisierung sowie On-Prem CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Ablauf (Docker, Traefik, GitHub Actions).
+- Produkttyp-Anbindungen als skalierbares Muster vorbereitet und an Produktteams zur Umsetzung weiterer Formate übergeben.
+- Tenant-basierte Auth0-Umstellung in der Bestandsbasis federführend begleitet (rund 33k Nutzer); Datenvollständigkeit und Rückwärtskompatibilität im Migrationspfad abgesichert.
+- Warehouse-Robotik in Taskforce stabilisiert: Auto-Mode-Orchestrierung, Frontend-Stabilisierung, strukturierte Tests zur Stabilisierung der Robotik-Abläufe sowie On-Prem CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Ablauf (Docker, Traefik, GitHub Actions).
 - AI/LLM: prototypischer Datenblatt-Import zur Reduktion manueller Produktpflege.
 
 _Technologien: TypeScript, Node.js, NestJS, Bun/Elysia, React, MobX, Next.js, Medusa, Drizzle, MikroORM, TypeORM, PostgreSQL, AWS, Docker, Traefik, Terraform, SQS, Lambda, Auth0, Pimcore, GitHub Actions_

@@ -41,29 +41,35 @@ Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End
 **ABS Doku (Modernisierung)**
 
 - Frontend-Refactoring und Migration von PHP/Symfony zu TypeScript/NestJS in technischer Leitung und teamübergreifender Abstimmung
+- Stabilisierung komplexer Frontend-States sowie Refactoring von kritischen Routen (u. a. Batch-Routen) zur besseren Wartbarkeit und stabileren Laufzeit
 
 **ABS Store (Commerce + Checkout-Flow)**
 
 - Technische Kernverantwortung für Konzeption und Aufbau des Stores (Medusa/Next.js) als plattformintegrierter Kaufprozess
 - Produktfluss: Planungssoftware „ABS Plan“ → Übergabe → Warenkorb/Checkout
 - Bestandteile des Shops: „Theke“ zur Überführung von Planungsergebnissen in den Bestellprozess; mehrstufige Preislogiken (kundenspezifische Overrides)
+- Order Processing im Checkout-Flow verantwortet und in bestehende Services integriert
+- Order Splitting für mehrteilige Liefer- und Prozessketten konzipiert und umgesetzt (technisch)
 - Integrationen u. a. Pimcore, HubSpot, SelectLine
 - Produktives Setup in der Größenordnung ~1.5k Produkte / ~200k Varianten
+- System bis in den stabilen Testbetrieb begleitet (Stabilisierung, Fehleranalyse, Release-Abläufe)
 - In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).
 
 **Produktdatenservice (Hersteller-/Händlerdaten)**
 
 - Produktdatenservice für Hersteller-/Händlerdaten im Lead-Team konzipiert; Import-, Transformations- und Validierungsprinzip pro Produkttyp definiert
 - Datenannahmeweg inkl. erweiterbarem Plugin-/Hook-System konzipiert und umgesetzt – ausgelegt auf stark heterogene Datenstrukturen und schnelle Anpassung an neue Partnerformate; AWS‑basierte Import-/Sync‑Strecken (S3/Lambda) und Deploy im bestehenden Setup (Terraform nach Team-Patterns)
+- Produkttyp-spezifische Anbindungen als skalierbares Muster vorbereitet und an Produktteams zur Umsetzung weiterer Formate übergeben
 
 **Auth-Migration (Tenant-Setup)**
 
-- Datenmigration im Rahmen der tenant-basierten Auth0-Umstellung federführend verantwortet; Integration in die Systemlandschaft im Team abgestimmt (rund 33k Nutzer)
+- Datenmigration im Rahmen der tenant-basierten Auth0-Umstellung federführend verantwortet; Datenvollständigkeit und Rückwärtskompatibilität im Migrationspfad abgesichert; Integration in die Systemlandschaft im Team abgestimmt (rund 33k Nutzer)
 
 **Warehouse-Robotik (Taskforce / Stabilisierung)**
 
 - Auto-Mode zur koordinierten Bot-Steuerung konzipiert und umgesetzt
 - Frontend stabilisiert (State-Struktur, Batch-Routen, Context-Struktur)
+- Strukturierte Tests zur Stabilisierung der Robotik-Abläufe eingeführt und etabliert
 - On-Prem (lokaler Server): CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Ablauf umgesetzt (Docker, Traefik, GitHub Actions), inspiriert von internen Patterns
 
 **AI & Automatisierung (Exploration)**
@@ -80,8 +86,8 @@ Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End
 
 **Ausgewählte Ergebnisse**
 
-- Stabilere Betriebsqualität und deutlich reduzierte Support-/Fehlerlast in zentralen Komponenten
-- Robuster Produktfluss von Planung bis Checkout; Integrationen über mehrere Systeme hinweg konsolidiert
+- Stabilere Betriebsqualität und spürbar reduzierte Support-/Fehlerlast in zentralen Komponenten
+- Durchgängiger Produktfluss von Planung bis Checkout etabliert; Integrationen u. a. Pimcore, HubSpot, SelectLine konsolidiert
 - Partnerfähige Importprozesse etabliert; manuelle Datenpflege deutlich reduziert trotz heterogener Datenformate
 - Im Warehouse: nach kritischer Phase stabilisiert; Zero-Downtime-Deployments produktiv im Einsatz und kontinuierlichere Auslieferung mit klaren Checks und schnellen Rollback-Pfaden ermöglicht
 
@@ -107,7 +113,7 @@ _04/2020 – 12/2020_
 
 ### handy.de Telekommunikation GmbH
 
-**Senior Software-Developer**  
+**Senior Software Developer**  
 _01/2018 – 03/2020_
 
 - Koordination zwischen Design, Produktmanagement und IT
@@ -136,7 +142,7 @@ _06/2014 – 12/2017_
 _08/2008 – 06/2014_
 
 - Print- und Webproduktion, Bildbearbeitung, SEO
-- Content-Management (Typo3, WordPress)
+- Content-Management (TYPO3, WordPress)
 
 ---
 

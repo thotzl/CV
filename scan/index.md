@@ -42,11 +42,15 @@ _01/2021 – heute_
 **Projekte & Produktarbeit (Auswahl)**
 
 - **ABS Doku:** Modernisierung (Refactoring, Migration PHP/Symfony → TypeScript/NestJS)
+- **ABS Doku:** Frontend-State-Stabilisierung und Refactoring von kritischen Routen (u. a. Batch-Routen)
 - **ABS Store:** Konzeption und Aufbau als plattformintegrierter Kaufprozess (Medusa/Next.js); Produktfluss „ABS Plan“ → Checkout inkl. „Theke“ und Preislogiken; Größenordnung ~1.5k Produkte / ~200k Varianten; Integrationen u. a. Pimcore, HubSpot, SelectLine
+- **ABS Store:** Order Processing und Order Splitting für mehrteilige Liefer- und Prozessketten umgesetzt; bis in stabilen Testbetrieb begleitet
 - In einer fortlaufenden Testphase wurden im Durchschnitt rund 60.000 EUR Umsatz pro Monat erzielt (ohne anschließenden breiten Rollout).
 - **Produktdatenservice:** plugin-/hook-basierte Import-, Transformations- und Validierungsarchitektur für stark heterogene Partnerformate (schnell anpassbar); AWS‑basierte Import-/Sync‑Strecken (S3/Lambda) im bestehenden Setup (Terraform nach Team-Patterns)
-- **Auth-Migration:** tenant-basierte Auth0-Umstellung (rund 33k Nutzer)
+- **Produktdatenservice:** Produkttyp-Anbindungen als skalierbares Muster vorbereitet und an Produktteams zur Umsetzung weiterer Formate übergeben
+- **Auth-Migration:** tenant-basierte Auth0-Umstellung (rund 33k Nutzer); Datenvollständigkeit und Rückwärtskompatibilität im Migrationspfad abgesichert
 - **Warehouse-Robotik:** Stabilisierung in Taskforce inkl. Auto-Mode-Orchestrierung und Frontend-Stabilisierung; On-Prem CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Ablauf (Docker, Traefik, GitHub Actions)
+- **Warehouse-Robotik:** strukturierte Tests zur Stabilisierung der Robotik-Abläufe etabliert
 - **AI/LLM:** prototypischer Datenblatt-Import zur Reduktion manueller Produktpflege
 - Delivery & Betrieb: Services im bestehenden Setup produktionsfähig betrieben (CI/CD, Betriebskonfiguration)
 - Mentoring und technische Abstimmung mit externen Partneragenturen
