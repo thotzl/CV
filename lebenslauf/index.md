@@ -36,6 +36,7 @@ _01/2021 – heute_
 - Tenant-basierte Auth0-Umstellung in der Bestandsbasis federführend begleitet (rund 33k Nutzer); Datenvollständigkeit und Rückwärtskompatibilität im Migrationspfad abgesichert.
 - Warehouse-Robotik in Taskforce stabilisiert: Auto-Mode-Orchestrierung, Frontend-Stabilisierung, strukturierte Tests zur Stabilisierung der Robotik-Abläufe sowie On-Prem CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Ablauf (Docker, Traefik, GitHub Actions).
 - AI/LLM: prototypischer Datenblatt-Import zur Reduktion manueller Produktpflege.
+- AI-gestützte Entwicklung: Methodik zur Kontext- und Aktionssteuerung entwickelt, Output/Effizienz erhöht; in Projekten produktiv eingesetzt.
 
 _Technologien: TypeScript, Node.js, NestJS, Bun/Elysia, React, MobX, Next.js, Medusa, Drizzle, MikroORM, TypeORM, PostgreSQL, AWS, Docker, Traefik, Terraform, SQS, Lambda, Auth0, Pimcore, GitHub Actions_
 
@@ -123,8 +124,6 @@ _2006_
 ## Schwerpunkte
 
 Fullstack-Entwicklung und technische Leitung mit Fokus auf Architektur, domänenorientierte Systementwicklung, B2B-E-Commerce sowie skalierbare Produktdaten- und Integrationsplattformen. Erfahrung mit modernen TypeScript/Node-Stacks, CI/CD-Deployments und Zero-Downtime-Deploy-Abläufen in komplexen Systemintegrationen.
-
-- AI-gestützte Entwicklung: Methodik entwickelt zur Kontext- und Aktionssteuerung, Output/Effizienz erhöht; in Projekten produktiv eingesetzt.
 
 ### Methoden & Technologien
 
