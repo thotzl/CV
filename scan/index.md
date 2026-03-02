@@ -99,6 +99,7 @@ _01/2021 – heute_
 - Klare technische Entscheidungen bei hoher Pragmatik
 - Ruhige, strukturierende Wirkung in komplexen Vorhaben
 - Pragmatische Nutzung von AI/LLM zur Prozessunterstützung
+- AI-gestützte Entwicklung: Methodik entwickelt zur Kontext- und Aktionssteuerung, Output/Effizienz erhöht; in Projekten produktiv eingesetzt als Teil der KI-Exploration.
 
 ---
 

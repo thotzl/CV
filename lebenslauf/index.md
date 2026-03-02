@@ -124,6 +124,8 @@ _2006_
 
 Fullstack-Entwicklung und technische Leitung mit Fokus auf Architektur, domänenorientierte Systementwicklung, B2B-E-Commerce sowie skalierbare Produktdaten- und Integrationsplattformen. Erfahrung mit modernen TypeScript/Node-Stacks, CI/CD-Deployments und Zero-Downtime-Deploy-Abläufen in komplexen Systemintegrationen.
 
+- AI-gestützte Entwicklung: Methodik entwickelt zur Kontext- und Aktionssteuerung, Output/Effizienz erhöht; in Projekten produktiv eingesetzt.
+
 ### Methoden & Technologien
 
 - TypeScript, Node.js, NestJS, React, Next.js, Medusa, Bun/Elysia

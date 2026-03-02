@@ -76,6 +76,7 @@ Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End
 
 - Exploration und prototypische Umsetzung eines LLM-gestützten Datenblatt-Imports zur Reduktion manueller Produktpflege
 - Evaluation von AI-Einsatzmöglichkeiten in internen Workflows und produktnahen Szenarien
+- AI-gestützte Entwicklung: Methodik entwickelt zur Kontext- und Aktionssteuerung, Output/Effizienz erhöht; in Projekten produktiv eingesetzt.
 
 **Weitere Beiträge**
 
