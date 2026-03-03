@@ -52,16 +52,14 @@
             {% if header.website %}
               <li class="mb-2 contact-website">
                 <a href="{{ header.website }}">
-                  <span class="fa-container text-center mr-2"><i class="fa-solid fa-globe"></i></span>
+                  <span class="fa-container text-center mr-2"><i class="fa-solid fa-globe"></i></span>{{ header.website }}
                 </a>
               </li>
             {% endif %}
 
             {% if header.location %}
-              <li class="mb-2 contact-location">
-                <a href="{{ header.location }}">
+              <li class="mb-2 contact-location"></li>
                   <span class="fa-container text-center mr-2"><i class="fa-solid fa-location-dot"></i></span>{{ header.location }}
-                </a>
               </li>
             {% endif %}
           </ul>
