@@ -132,15 +132,9 @@
     padding: 0 !important;
   }
 
-  .resume-body > h1 {
-    display: none !important;
-  }
-
-  .resume-body ~ p {
-    display: none !important;
-  }
-
-  .hidden-print {
+  .resume-body > h1,
+  .resume-body > p,
+  .resume-body > hr {
     display: none !important;
   }
 
