@@ -1,0 +1,64 @@
+/* Print stylesheet for the CV
+   This file defines print-specific styles for your Jekyll CV.  When printing to
+   A4, it hides hyperlink styling, shows phone and email contact details,
+   and adjusts general layout for better readability.  To activate these
+   styles, ensure this file is linked in your <head> with media="print".
+
+   Classes used in markup:
+     contact-phone  – the phone number to reveal on print
+     contact-email  – the email address to reveal on print
+     contact-online – any online-only contact info (LinkedIn, Xing, etc.)
+*/
+
+/* Set up the page for A4 printing */
+@page {
+  size: A4;
+  margin: 1.5cm;
+}
+
+@media print {
+  /* Remove hyperlink styling: links appear as plain text */
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+    pointer-events: none !important;
+  }
+
+  /* Suppress any automatic addition of URLs after link text */
+  a::after {
+    content: '' !important;
+  }
+
+  /* Hide icons and SVGs (e.g. FontAwesome) when printing */
+  i,
+  svg {
+    display: none !important;
+  }
+
+  /* Show phone and email in print */
+  .contact-phone,
+  .contact-email {
+    display: block !important;
+    margin-bottom: 0.25rem;
+  }
+
+  /* Hide online-only contact info in print */
+  .contact-online {
+    display: none !important;
+  }
+
+  /* Adjust general typography for print */
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 12pt !important;
+    line-height: 1.4 !important;
+  }
+
+  /* Remove list bullets and left indent for a cleaner print layout */
+  ul,
+  ol {
+    list-style: none !important;
+    padding-left: 0 !important;
+  }
+}
