@@ -37,20 +37,21 @@
             </li>
             {% endif %}
             {% if header.linkedin %}
-              <li class="mb-2 contact-linkedin">
+              <li class="mb-2 contact-online">
                 <a href="{{ header.linkedin }}">
-                  <span class="hidden-print fa-container text-center mr-2"><i class="fa-brands fa-linkedin-in"></i></span>{{ header.linkedin }}
+                  <span class="hidden-print fa-container text-center mr-2"><i class="fa-brands fa-linkedin-in"></i></span>LinkedIn
                 </a>
               </li>
             {% endif %}
 
             {% if header.xing %}
-              <li class="mb-2 contact-xing">
+              <li class="mb-2 contact-online">
                 <a href="{{ header.xing }}">
-                  <span class="hidden-print fa-container text-center mr-2"><i class="fa-brands fa-xing"></i></span>{{ header.xing }}
+                  <span class="hidden-print fa-container text-center mr-2"><i class="fa-brands fa-xing"></i></span>Xing
                 </a>
               </li>
             {% endif %}
+
             {% if header.website %}
               <li class="mb-2 contact-website">
                 <a href="{{ header.website }}">
