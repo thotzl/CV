@@ -37,6 +37,8 @@
 
   /* Show phone and email in print */
   .contact-phone,
+  .contact-linkedin,
+  .contact-xing,
   .contact-location,
   .contact-website,
   .contact-email {
