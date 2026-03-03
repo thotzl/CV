@@ -147,5 +147,6 @@
 
   .visible-print-inline {
     display: inline-block !important;
+    width: 5rem;
   }
 }
