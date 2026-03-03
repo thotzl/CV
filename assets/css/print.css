@@ -144,4 +144,8 @@
   .visible-print {
     display: block !important;
   }
+
+  .visible-print-inline {
+    display: inline-block !important;
+  }
 }
