@@ -118,6 +118,8 @@
 
   .resume-header .name,
   .resume-header .secondary-info li,
+  .resume-header .secondary-info li i,
+  .resume-header .secondary-info li span,
   .resume-header .secondary-info li a {
     color: #333 !important;
   }
