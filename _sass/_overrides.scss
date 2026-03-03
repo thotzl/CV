@@ -6,6 +6,10 @@
   -webkit-filter: grayscale(100%);
 }
 
+.picture {
+  object-fit: contain;
+}
+
 // Cleaner, more subtle typography.
 .resume-wrapper-inner {
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
