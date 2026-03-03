@@ -100,4 +100,8 @@
     .resume-header .col {
       padding: 0 !important;
     }
+
+        .resume-header .secondary-info {
+          display: none !important;
+        }
 }
