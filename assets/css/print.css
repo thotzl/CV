@@ -110,4 +110,17 @@
   .resume-body > h1 {
     display: none !important;
   }
+
+  .resume-header .secondary-info li {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .resume-header .name {
+    color: #333 !important;
+  }
+
+  .resume-body > h1 {
+    display: none !important;
+  }
 }
