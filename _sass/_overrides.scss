@@ -9,7 +9,10 @@
   object-fit: contain;
 }
 
-
+.contact-phone,
+.contact-email {
+  display: none;
+}
 
 // Cleaner, more subtle typography.
 .resume-wrapper-inner {
