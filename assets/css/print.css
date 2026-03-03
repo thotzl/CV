@@ -134,7 +134,8 @@
 
   .resume-body > h1,
   .resume-body > p,
-  .resume-body > hr {
+  .resume-body > hr,
+  .hidden-print {
     display: none !important;
   }
 
