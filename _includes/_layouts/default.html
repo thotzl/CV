@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'de' }}">
+{% include head.html %}
+<body>
+  <div class="position-fixed p-3 d-print-none" style="top: 0; right: 0; z-index: 1000;">
+    <div class="d-flex" style="gap: 0.5rem;">
+      <button type="button" class="btn btn-sm theme-btn-on-bg" onclick="window.print()">Print</button>
+      <button type="button" class="btn btn-sm theme-btn-on-bg" data-share>Share</button>
+    </div>
+  </div>
+
+  <div class="resume-wrapper">
+    <article class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
+      {% include header.html %}
+
+      <div class="p-4">
+        <nav class="small">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          · <a href="{{ '/scan/' | relative_url }}">CV kompakt</a>
+          · <a href="{{ '/cv/' | relative_url }}">CV</a>
+          · <a href="{{ '/lebenslauf/' | relative_url }}">Lebenslauf</a>
+        </nav>
+      </div>
+
+      <div class="resume-body p-5 pt-0">
+        {{ content }}
+      </div>
+
+      {% include footer.html %}
+    </article>
+  </div>
+
+  <script src="{{ '/assets/js/share.js' | relative_url }}"></script>
+</body>
+</html>

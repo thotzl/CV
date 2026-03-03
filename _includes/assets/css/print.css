@@ -116,9 +116,7 @@
     padding: 0 !important;
   }
 
-  .resume-header .name,
-  .resume-header .secondary-info li,
-  .resume-header .secondary-info li a {
+  .resume-header .name {
     color: #333 !important;
   }
 
