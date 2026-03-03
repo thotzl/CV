@@ -39,7 +39,7 @@
             {% if header.linkedin %}
               <li class="mb-2 contact-online">
                 <a href="{{ header.linkedin }}">
-                  <span class="hidden-print fa-container text-center mr-2"><i class="fa-brands fa-linkedin-in"></i></span>LinkedIn
+                  <span class="hidden-print fa-container text-center mr-2"><i class="fa-brands fa-linkedin-in"></i></span>{{ header.linkedin }}
                 </a>
               </li>
             {% endif %}
@@ -47,11 +47,10 @@
             {% if header.xing %}
               <li class="mb-2 contact-online">
                 <a href="{{ header.xing }}">
-                  <span class="hidden-print fa-container text-center mr-2"><i class="fa-brands fa-xing"></i></span>Xing
+                  <span class="hidden-print fa-container text-center mr-2"><i class="fa-brands fa-xing"></i></span>{{ header.xing }}
                 </a>
               </li>
             {% endif %}
-
             {% if header.website %}
               <li class="mb-2 contact-website">
                 <a href="{{ header.website }}">
