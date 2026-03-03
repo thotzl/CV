@@ -121,6 +121,13 @@
   .resume-header .secondary-info li a {
     color: #333 !important;
   }
+  .resume-header .row {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: flex-start !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 
   .resume-body > h1 {
     display: none !important;
