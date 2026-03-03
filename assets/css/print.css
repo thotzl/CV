@@ -37,6 +37,7 @@
 
   /* Show phone and email in print */
   .contact-phone,
+  .contact-location,
   .contact-email {
     display: block !important;
     margin-bottom: 0.25rem;
@@ -60,5 +61,29 @@
   ol {
     list-style: none !important;
     padding-left: 0 !important;
+  }
+
+  /* Hide navigation and other on-screen only links (e.g. links to other versions) */
+  nav,
+  .resume-nav,
+  .site-nav,
+  .navbar,
+  .navigation,
+  .page-links {
+    display: none !important;
+  }
+
+  /* Simplify header appearance in print: remove background, shadows and other styling */
+  .resume-header {
+    background: none !important;
+    box-shadow: none !important;
+  }
+
+  /* Remove any box shadows from the wrapper and inner containers */
+  .resume-wrapper,
+  .resume-wrapper-inner,
+  .resume-body {
+    box-shadow: none !important;
+    background: none !important;
   }
 }
