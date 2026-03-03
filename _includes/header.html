@@ -28,12 +28,12 @@
           <ul class="resume-social list-unstyled mb-0">
             {% if header.phone_display %}
             <li class="mb-2 contact-phone">
-              <span class="hidden-print fa-container text-center mr-2"><i class="fa-solid fa-phone"></i></span>{{ header.phone_display }}
+              <span class="hidden-print fa-container text-center mr-2"><i class="fa-solid fa-phone"></i></span><span class="visible-print"></span>Tel: </span>{{ header.phone_display }}
             </li>
             {% endif %}
             {% if header.email %}
             <li class="mb-2 contact-email">
-              <span class="hidden-print fa-container text-center mr-2"><i class="fa-solid fa-envelope"></i></span>{{ header.email }}
+              <span class="hidden-print fa-container text-center mr-2"><i class="fa-solid fa-envelope"></i></span><span class="visible-print"></span>E-Mail: </span>{{ header.email }}
             </li>
             {% endif %}
             {% if header.linkedin %}
@@ -55,14 +55,14 @@
             {% if header.website %}
               <li class="mb-2 contact-website">
                 <a href="{{ header.website }}">
-                  <span class="hidden-print fa-container text-center mr-2"><i class="fa-solid fa-globe"></i></span>{{ header.website }}
+                  <span class="hidden-print fa-container text-center mr-2"><i class="fa-solid fa-globe"></i></span><span class="visible-print"></span>Portfolio: </span>{{ header.website }}
                 </a>
               </li>
             {% endif %}
 
             {% if header.location %}
               <li class="mb-2 contact-location"></li>
-                  <span class="hidden-print fa-container text-center mr-2"><i class="fa-solid fa-location-dot"></i></span>{{ header.location }}
+                  <span class="hidden-print fa-container text-center mr-2"><i class="fa-solid fa-location-dot"></i></span><span class="visible-print">Ort: </span>{{ header.location }}
               </li>
             {% endif %}
           </ul>
