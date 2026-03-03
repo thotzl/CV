@@ -25,18 +25,18 @@
           <ul class="resume-social list-unstyled mb-0">
             {% if header.phone_display %}
             <li class="mb-2 contact-phone">
-              <span class="fa-container text-center mr-2"><i class="fa-solid fa-phone"></i></span>{{ header.phone_display }}
+              <span class="hidden-print fa-container text-center mr-2"><i class="fa-solid fa-phone"></i></span>{{ header.phone_display }}
             </li>
             {% endif %}
             {% if header.email %}
             <li class="mb-2 contact-email">
-              <span class="fa-container text-center mr-2"><i class="fa-solid fa-envelope"></i></span>{{ header.email }}
+              <span class="hidden-print fa-container text-center mr-2"><i class="fa-solid fa-envelope"></i></span>{{ header.email }}
             </li>
             {% endif %}
             {% if header.linkedin %}
               <li class="mb-2 contact-online">
                 <a href="{{ header.linkedin }}">
-                  <span class="fa-container text-center mr-2"><i class="fa-brands fa-linkedin-in"></i></span>LinkedIn
+                  <span class="hidden-print fa-container text-center mr-2"><i class="fa-brands fa-linkedin-in"></i></span>LinkedIn
                 </a>
               </li>
             {% endif %}
@@ -44,7 +44,7 @@
             {% if header.xing %}
               <li class="mb-2 contact-online">
                 <a href="{{ header.xing }}">
-                  <span class="fa-container text-center mr-2"><i class="fa-brands fa-xing"></i></span>Xing
+                  <span class="hidden-print fa-container text-center mr-2"><i class="fa-brands fa-xing"></i></span>Xing
                 </a>
               </li>
             {% endif %}
@@ -52,14 +52,14 @@
             {% if header.website %}
               <li class="mb-2 contact-website">
                 <a href="{{ header.website }}">
-                  <span class="fa-container text-center mr-2"><i class="fa-solid fa-globe"></i></span>{{ header.website }}
+                  <span class="hidden-print fa-container text-center mr-2"><i class="fa-solid fa-globe"></i></span>{{ header.website }}
                 </a>
               </li>
             {% endif %}
 
             {% if header.location %}
               <li class="mb-2 contact-location"></li>
-                  <span class="fa-container text-center mr-2"><i class="fa-solid fa-location-dot"></i></span>{{ header.location }}
+                  <span class="hidden-print fa-container text-center mr-2"><i class="fa-solid fa-location-dot"></i></span>{{ header.location }}
               </li>
             {% endif %}
           </ul>

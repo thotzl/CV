@@ -122,12 +122,8 @@
   .resume-header .secondary-info li span,
   .resume-header .secondary-info li a {
     color: #333 !important;
-    &::before,
-    &::after {
-      content: none !important;
-      display: none !important;
-    }
   }
+
   .resume-header .row {
     display: flex !important;
     flex-wrap: nowrap !important;
@@ -137,6 +133,10 @@
   }
 
   .resume-body > h1 {
+    display: none !important;
+  }
+
+  .hidden-print {
     display: none !important;
   }
 }
