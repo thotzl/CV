@@ -128,8 +128,8 @@
   }
 
   .resume-body > h1,
-  .resume-body > p,
-  .resume-body > hr,
+  .resume-body > p:first-of-type,
+  .resume-body > hr:first-of-type,
   .hidden-print {
     display: none !important;
   }
