@@ -139,4 +139,8 @@
   .hidden-print {
     display: none !important;
   }
+
+  .visible-print {
+    display: block !important;
+  }
 }

@@ -8,7 +8,9 @@
   height: 220px;
   object-fit: contain;
 }
-
+.visible-print {
+  display: none;
+}
 .contact-phone,
 .contact-email,
 .contact-website {
