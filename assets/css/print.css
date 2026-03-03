@@ -59,13 +59,6 @@
     line-height: 1.4 !important;
   }
 
-  /* Remove list bullets and left indent for a cleaner print layout */
-  ul,
-  ol {
-    list-style: none !important;
-    padding-left: 0 !important;
-  }
-
   /* Hide navigation and other on-screen only links (e.g. links to other versions) */
   nav,
   .resume-nav,
