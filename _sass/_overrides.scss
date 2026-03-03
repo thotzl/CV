@@ -4,11 +4,12 @@
 .resume-header .picture {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
-}
-
-.picture {
+  width: auto;
+  height: 220px;
   object-fit: contain;
 }
+
+
 
 // Cleaner, more subtle typography.
 .resume-wrapper-inner {
