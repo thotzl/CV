@@ -122,6 +122,11 @@
   .resume-header .secondary-info li span,
   .resume-header .secondary-info li a {
     color: #333 !important;
+    &::before,
+    &::after {
+      content: none !important;
+      display: none !important;
+    }
   }
   .resume-header .row {
     display: flex !important;
