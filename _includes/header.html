@@ -34,33 +34,35 @@
             </li>
             {% endif %}
             {% if header.linkedin %}
-            - <li class="mb-2">
-              +
-            <li class="mb-2 contact-online">
-              <a href="{{ header.linkedin }}">
-                …
-              </a>
-            </li>
+              <li class="mb-2 contact-online">
+                <a href="{{ header.linkedin }}">
+                  <span class="fa-container text-center mr-2"><i class="fa-brands fa-linkedin-in"></i></span>LinkedIn
+                </a>
+              </li>
             {% endif %}
-            
+
             {% if header.xing %}
-            - <li class="mb-2">
-              +
-            <li class="mb-2 contact-online">
-              <a href="{{ header.xing }}">
-                …
-              </a>
-            </li>
+              <li class="mb-2 contact-online">
+                <a href="{{ header.xing }}">
+                  <span class="fa-container text-center mr-2"><i class="fa-brands fa-xing"></i></span>Xing
+                </a>
+              </li>
             {% endif %}
-            
+
             {% if header.website %}
-            - <li class="mb-2">
-              +
-            <li class="mb-2 contact-online">
-              <a href="{{ header.website }}">
-                …
-              </a>
-            </li>
+              <li class="mb-2 contact-website">
+                <a href="{{ header.website }}">
+                  <span class="fa-container text-center mr-2"><i class="fa-solid fa-globe"></i></span>
+                </a>
+              </li>
+            {% endif %}
+
+            {% if header.location %}
+              <li class="mb-2 contact-location">
+                <a href="{{ header.location }}">
+                  <span class="fa-container text-center mr-2"><i class="fa-solid fa-location-dot"></i></span>{{ header.location }}
+                </a>
+              </li>
             {% endif %}
           </ul>
         </div>

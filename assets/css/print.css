@@ -38,6 +38,7 @@
   /* Show phone and email in print */
   .contact-phone,
   .contact-location,
+  .contact-website,
   .contact-email {
     display: block !important;
     margin-bottom: 0.25rem;
