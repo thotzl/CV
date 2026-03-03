@@ -26,7 +26,7 @@
 
   /* Suppress any automatic addition of URLs after link text */
   a::after {
-    content: '' !important;
+    content: "" !important;
   }
 
   /* Hide icons and SVGs (e.g. FontAwesome) when printing */
@@ -88,24 +88,26 @@
     background: none !important;
   }
 
-    /* Align header content properly when printing */
-    .resume-header .row {
-      display: flex !important;
-      flex-wrap: nowrap !important;
-      align-items: center !important;
-      margin: 0 !important;
-      padding: 0 !important;
-    }
-  
-    .resume-header .col-auto,
-    .resume-header .col {
-      padding: 0 !important;
-    }
+  /* Align header content properly when printing */
+  .resume-header .row {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 
-    
+  .resume-header .col-auto,
+  .resume-header .col {
+    padding: 0 !important;
+  }
 
-                .resume-header .title,
-                .resume-header .header-tagline-lines {
-                  display: none !important;
-                }
+  .resume-header .title,
+  .resume-header .header-tagline-lines {
+    display: none !important;
+  }
+
+  .resume-body > h1 {
+    display: none !important;
+  }
 }
