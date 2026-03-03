@@ -192,11 +192,11 @@ Gestaltung resilienter Schnittstellen und Importarchitekturen zur Verarbeitung h
 
 ## Kontakt
 
-- <span class="contact-phone">Telefon: +49 178 898 22 00</span>
-- <span class="contact-email">E-Mail: torsten.hoetzel@pixlich.de</span>
-- <span class="contact-online">LinkedIn: <a href="https://www.linkedin.com/in/thotzl/">Profil</a></span>
-- <span class="contact-online">Xing: <a href="https://www.xing.com/profile/Torsten_Hoetzel">Profil</a></span>
-- <span class="contact-location">Standort: Bottrop, Deutschland</span>
+<span class="contact-phone">Telefon: +49 178 898 22 00</span>
+<span class="contact-email">E-Mail: torsten.hoetzel@pixlich.de</span>
+<span class="contact-online">LinkedIn: <a href="https://www.linkedin.com/in/thotzl/">Profil</a></span>
+<span class="contact-online">Xing: <a href="https://www.xing.com/profile/Torsten_Hoetzel">Profil</a></span>
+<span class="contact-location">Standort: Bottrop, Deutschland</span>
 
 ## Ausbildung
 
