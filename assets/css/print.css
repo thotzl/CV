@@ -86,4 +86,18 @@
     box-shadow: none !important;
     background: none !important;
   }
+
+    /* Align header content properly when printing */
+    .resume-header .row {
+      display: flex !important;
+      flex-wrap: nowrap !important;
+      align-items: center !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+  
+    .resume-header .col-auto,
+    .resume-header .col {
+      padding: 0 !important;
+    }
 }
