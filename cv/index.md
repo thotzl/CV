@@ -19,6 +19,8 @@ Ich gestalte und verantworte in cross-funktionalen Teams plattformintegrierte So
 - Stabile Delivery & Betriebssicherheit (CI/CD, Zero-Downtime-Ansätze, Risiko-Reduktion)
 - Fachliche Führung in cross-funktionalen Teams (Strukturierung, Mentoring, Abstimmung mit Produkt/Fachbereichen/Partnern); pragmatische Exploration von AI/LLM für Automatisierung
 
+Als technischer Impulsgeber bringe ich neue Technologien pragmatisch ins Team, mache komplexe Zusammenhänge durch Prototypen greifbar und helfe, bei unklaren Anforderungen zu klaren Entscheidungen zu kommen.
+
 ---
 
 ## Berufserfahrung
@@ -28,7 +30,7 @@ Ich gestalte und verantworte in cross-funktionalen Teams plattformintegrierte So
 **Senior Software Engineer (Fullstack)**  
 _01/2021 – heute_
 
-Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End-to-End-Verantwortung. Als Tech Lead habe ich fachliche Klärung, Architekturentscheidungen und Umsetzung im Team zusammengeführt und die Lieferung bis in den stabilen Betrieb begleitet. Enge Zusammenarbeit mit Produktmanagement und Fachbereichen zur Übersetzung fachlicher Anforderungen in tragfähige Systemlösungen.
+Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End-to-End-Verantwortung. Als Tech Lead habe ich fachliche Klärung, Architekturentscheidungen und Umsetzung im Team zusammengeführt und die Lieferung bis in den stabilen Betrieb begleitet. Enge Zusammenarbeit mit Produktmanagement und Fachbereichen zur Übersetzung fachlicher Anforderungen in tragfähige Systemlösungen. In mehreren Projekten habe ich gemeinsam mit dem Team Neuland erschlossen und Architekturentscheidungen mit fundierten Prototypen vorbereitet.
 
 **Projekte & Produktarbeit**
 
@@ -72,11 +74,12 @@ Technische Leitung und Mitarbeit in einem cross-funktionalen Produktteam mit End
 - Strukturierte Tests zur Stabilisierung der Robotik-Abläufe eingeführt und etabliert
 - On-Prem (lokaler Server): CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Ablauf umgesetzt (Docker, Traefik, GitHub Actions), inspiriert von internen Patterns
 
-**AI & Automatisierung (Exploration)**
+**AI, Automatisierung & Exploration**
 
 - Exploration und prototypische Umsetzung eines LLM-gestützten Datenblatt-Imports zur Reduktion manueller Produktpflege
 - Evaluation von AI-Einsatzmöglichkeiten in internen Workflows und produktnahen Szenarien
-- AI-gestützte Entwicklung: Methodik entwickelt zur Kontext- und Aktionssteuerung, Output/Effizienz erhöht; in Projekten produktiv eingesetzt.
+- AI-gestützte Entwicklung & agentic coding: Methodik zur Kontext- und Aktionssteuerung entwickelt, generative KI und agentic coding exploriert und u. a. in der Warehouse-Robotik produktiv eingesetzt; Erkenntnisse in weitere Projekte eingebracht.
+- Low‑/No‑Code: Prototypische Admin‑Oberfläche auf Low‑/No‑Code‑Basis entwickelt und evaluiert; Technik auch in anderen Kontexten angewandt.
 
 **Weitere Beiträge**
 

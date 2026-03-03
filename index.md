@@ -23,7 +23,7 @@ Einstieg zu den verschiedenen Profilversionen:
 ## Kurzprofil
 
 Fokus auf robuste Systemarchitektur, plattformintegrierte Produktentwicklung und stabile Delivery in komplexen Umfeldern.  
-Schwerpunkte liegen in technischer Führung, Integrationsarchitekturen und der Umsetzung skalierbarer Fullstack-Lösungen.
+Schwerpunkte liegen in technischer Führung, Integrationsarchitekturen und der Umsetzung skalierbarer Fullstack-Lösungen. Zusätzlich übernehme ich regelmäßig die Rolle des technischen Impulsgebers: Ich bringe neue Technologien pragmatisch ins Team, mache komplexe Zusammenhänge durch Prototypen greifbar und helfe, bei unklaren Anforderungen zu klaren Entscheidungen zu kommen.
 
 ---
 

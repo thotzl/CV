@@ -26,6 +26,7 @@ Meine Arbeit bewegt sich bewusst über reine Implementierung hinaus: Systeme wer
 - ABS Store als plattformintegrierte Commerce-Plattform; Kernintegration Planungssoftware "ABS Plan" inkl. Direkt-Checkout, weitere Integrationen u. a. Pimcore, HubSpot, SelectLine
 - Produktdatenservice mit plugin-/hook-basierter Import- und Validierungsarchitektur für heterogene Partnerformate
 - On-Prem CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Ablauf im Warehouse-Kontext umgesetzt
+- Technischer Impulsgeber: Neue Technologien pragmatisch ins Team bringen, komplexe Zusammenhänge durch Prototypen greifbar machen und bei unklaren Anforderungen zu klaren Entscheidungen beitragen.
 
 ---
 
@@ -51,7 +52,7 @@ _01/2021 – heute_
 - **Warehouse-Robotik:** Stabilisierung in Taskforce inkl. Auto-Mode-Orchestrierung und Frontend-Stabilisierung; On-Prem CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Ablauf (Docker, Traefik, GitHub Actions)
 - **Warehouse-Robotik:** strukturierte Tests zur Stabilisierung der Robotik-Abläufe etabliert
 - **AI/LLM:** prototypischer Datenblatt-Import zur Reduktion manueller Produktpflege
-- Delivery & Betrieb: Services im bestehenden Setup produktionsfähig betrieben (CI/CD, Betriebskonfiguration)
+- **Delivery & Betrieb:** Services im bestehenden Setup produktionsfähig betrieben (CI/CD, Betriebskonfiguration)
 - Mentoring und technische Abstimmung mit externen Partneragenturen
 
 **Ausgewählte Ergebnisse**
@@ -99,7 +100,8 @@ _01/2021 – heute_
 - Klare technische Entscheidungen bei hoher Pragmatik
 - Ruhige, strukturierende Wirkung in komplexen Vorhaben
 - Pragmatische Nutzung von AI/LLM zur Prozessunterstützung
-- AI-gestützte Entwicklung als Teil der KI-Exploration: Methodik zur Kontext- und Aktionssteuerung entwickelt, Output/Effizienz erhöht und in Projekten produktiv eingesetzt.
+- AI-gestützte Entwicklung & agentic coding: Methodik zur Kontext- und Aktionssteuerung entwickelt, generative KI und agentic coding exploriert und u. a. in der Warehouse-Robotik produktiv eingesetzt; Erkenntnisse in weitere Projekte eingebracht.
+- Low-/No‑Code: Prototypische Admin-Oberfläche entwickelt und evaluiert; Technik auch in anderen Kontexten angewandt.
 
 ---
 

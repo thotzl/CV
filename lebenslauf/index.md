@@ -18,6 +18,8 @@ Seit 2021 bei ABS Safety GmbH in der technischen Führung cross-funktionaler Tea
 
 Zuvor mehrere Jahre Fullstack- und Frontend-Entwicklung bei adcada, handy.de und preis24. Ursprünglich Ausbildung zum Mediengestalter (Digital und Print).
 
+Ergänzend übernehme ich die Rolle des technischen Impulsgebers: Ich bringe neue Technologien pragmatisch ins Team, mache komplexe Zusammenhänge durch Prototypen greifbar und helfe, bei unklaren Anforderungen zu klaren Entscheidungen zu kommen.
+
 ---
 
 ## Berufserfahrung
@@ -36,7 +38,7 @@ _01/2021 – heute_
 - Tenant-basierte Auth0-Umstellung in der Bestandsbasis federführend begleitet (rund 33k Nutzer); Datenvollständigkeit und Rückwärtskompatibilität im Migrationspfad abgesichert.
 - Warehouse-Robotik in Taskforce stabilisiert: Auto-Mode-Orchestrierung, Frontend-Stabilisierung, strukturierte Tests zur Stabilisierung der Robotik-Abläufe sowie On-Prem CI/CD-Deployment-Pipeline und Zero-Downtime-Deploy-Ablauf (Docker, Traefik, GitHub Actions).
 - AI/LLM: prototypischer Datenblatt-Import zur Reduktion manueller Produktpflege.
-- AI-gestützte Entwicklung: Methodik zur Kontext- und Aktionssteuerung entwickelt, Output/Effizienz erhöht; in Projekten produktiv eingesetzt.
+- AI-gestützte Entwicklung & agentic coding: Methodik zur Kontext- und Aktionssteuerung entwickelt, generative KI und agentic coding exploriert und u. a. in der Warehouse-Robotik produktiv eingesetzt; Erkenntnisse in weitere Projekte eingebracht.
 
 _Technologien: TypeScript, Node.js, NestJS, Bun/Elysia, React, MobX, Next.js, Medusa, Drizzle, MikroORM, TypeORM, PostgreSQL, AWS, Docker, Traefik, Terraform, SQS, Lambda, Auth0, Pimcore, GitHub Actions_
 
