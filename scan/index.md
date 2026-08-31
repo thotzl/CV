@@ -40,7 +40,7 @@ _13.04.2026 – heute_
 - **Systemlandschafts-Integration & API-Entkopplung:** Technologische Entkopplung übernommener Systeme von plattformspezifischen Cloud-Strukturen (AWS S3/SES) hin zu flexibleren Dateisystem- und SMTP-Schnittstellen zur nahtlosen Einbindung in die Systemlandschaft.
 - **Datenintegrität & Versionsprüfung:** Konzeption und Implementierung einer automatisierten Versionsprüfungs- und Datenvalidierungsarchitektur zur Angleichung älterer Datensätze und Produktversionen ohne Datenverluste.
 - **Produktsuche & API-Integration (Magento / Algolia):** Integration hochperformanter Such-API-Hooks (Algolia) mit modernen UI-Komponenten (Material-UI) im Frontend sowie Entwicklung robuster Migrationspfade zur dynamischen SKU-Übersetzung.
-- **CI/CD- und SRE-Optimierung:** Migration automatisierter E2E-Tests (Playwright) auf native Integrationsserver mit parallelisierten Containern (Sharding) sowie Aufbau intelligenter, mehrstufigen Docker-Bereinigungsverfahren.
+- **CI/CD- und SRE-Optimierung:** Weitestgehende Ablösung ressourcenintensiver Docker-Virtualisierungen in der Pipeline durch native Testausführung (Playwright) direkt auf bare-metal CI-Hosts zur drastischen Performance-Steigerung.
 - **Developer Tooling & AI-Integration:** Konzeption und Implementierung interner CLI-Werkzeuge zur workflow-übergreifenden Standardisierung sowie Anleitung des Teams beim produktiven Einsatz moderner KI-Systeme.
 - **Team-Mentoring & Agile Organisation:** Fachliche Begleitung des Entwicklerteams sowie Koordination abteilungsübergreifender Workflows in Übergangsphasen.
 

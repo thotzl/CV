@@ -48,9 +48,10 @@ Fachliche und operative Mitsteuerung in einem cross-funktionalen Produktteam fü
 - Aufbau einer simulierten Suchumgebung (In-Memory Mock Search) mit dynamischer Facettenberechnung zur Gewährleistung vollständiger Offline-Interaktivität in lokalen Testumgebungen.
 
 **CI/CD-Transformation, Performance & Test-Stabilisierung (SRE)**
-- Migration der automatisierten Ende-zu-Ende-Tests auf native Integrationsserver mit parallelisierten Containern (Sharding) zur signifikanten Reduzierung der Pipeline-Laufzeiten.
+- Weitestgehende Ablösung ressourcenintensiver Docker-in-Docker-Virtualisierungen in der CI/CD-Pipeline zugunsten einer nativen Testausführung direkt auf physischen On-Premises-Servern (Bare-Metal).
+- Migration der Playwright-E2E-Tests zur direkten, nativen Ausführung auf den CI-Hosts mit parallelisierten Shards, wodurch Virtualisierungs-Overhead eliminiert und die Pipeline-Performance drastisch gesteigert wurde.
 - Behebung von Fehlern bei komplexen visuellen Tests in der CI-Pipeline durch den Einsatz von softwarebasiertem WebGL-Rendering.
-- Konzeption und Implementierung einer intelligenten, mehrstufigen Cleanup- und Cache-Bereinigungsarchitektur zur Beseitigung von Ressourcenkonflikten auf den Build-Servern und Gewährleistung einer lückenlosen Stabilität.
+- Konzeption und Implementierung einer intelligenten, mehrstufigen Cleanup- und Cache-Bereinigungsarchitektur zur Beseitigung verbleibender Ressourcenkonflikte auf den Build-Servern und Gewährleistung einer lückenlosen Stabilität.
 
 **Team-Mentoring & Agile Organisation**
 - Etablierung moderner, KI-gestützter Entwicklungsprozesse im Alltag sowie fachliches Mentoring und Anleitung des Teams beim Einsatz strukturierter KI-Hilfsmittel zur Steigerung der gesamten Produktivität.
