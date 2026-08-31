@@ -34,33 +34,20 @@ Fachliche und operative Mitsteuerung in einem cross-funktionalen Produktteam fü
 
 **Projekte & Systemarchitektur**
 
-**Infrastruktur-Migration & API-Entkopplung**
-- Entwicklung einer asynchronen, plugin-basierten Migrations-Engine, um Altsystem-Pläne beim Import automatisiert zu erhalten, externe Medien-Ressourcen asynchron aufzulösen und lokal zu persistieren.
-- Beseitigung plattformspezifischer Cloud-Bindungen (z. B. AWS S3/SES) zugunsten standardisierter, flexibler Dateisystem- und Mail-Schnittstellen zur nahtlosen Einbindung in die hauseigene Systemlandschaft.
+**Infrastruktur-Migration, Datenintegrität & API-Anbindung**
+- Beseitigung plattformspezifischer Cloud-Schnittstellen (AWS S3/SES) zugunsten standardisierter, flexibler Dateisystem- und SMTP-Anbindungen zur nahtlosen Einbindung in die hauseigene Systemlandschaft.
+- Absicherung der Datenkonsistenz historischer Planungsdaten im Plan-Dokument, wodurch unbeabsichtigte automatische Plan-Neuberechnungen durch spätere Katalog-Updates verhindert werden.
+- Integration hochperformanter Such-API-Hooks (Algolia) mit Material-UI im Frontend zur Neuentwicklung des Produktauswahldialogs sowie Konzeption robuster Migrationspfade zur dynamischen SKU-Übersetzung beim API-Import.
 
-**Datenintegrität, Versionskontrolle & Aktualisierungs-Verfahren**
-- Absicherung der Datenkonsistenz historischer Planungsdaten durch direkte, flache Persistenz der Produkt-Metadaten im Plan-Dokument, wodurch unbeabsichtigte automatische Plan-Neuberechnungen durch spätere Katalog-Updates verhindert werden.
-- Implementierung eines automatisierten, eventgesteuerten Aktualisierungs- und Validierungsverfahrens, um ältere Produktversionen im Plan kontrolliert und auf Wunsch des Nutzers über Hintergrund-Systeme (Magento/Algolia) neu zu berechnen und zu validieren.
-
-**Produktsuche & API-Integration (Magento / Algolia)**
-- Entwicklung einer modular wiederverwendbaren Such- und Auswahlschnittstelle durch die Verbindung von Such-API-Hooks (Algolia) mit modernen UI-Komponenten (Material-UI) im Frontend.
-- Implementierung einer automatisierten Token-Rotation zur unterbrechungsfreien Aktualisierung kurzlebiger API-Suchschlüssel im laufenden Betrieb.
-- Aufbau einer simulierten Suchumgebung (In-Memory Mock Search) mit dynamischer Facettenberechnung zur Gewährleistung vollständiger Offline-Interaktivität in lokalen Testumgebungen.
-
-**CI/CD-Transformation, Performance & Test-Stabilisierung (SRE)**
+**CI/CD-Transformation & SRE-Stabilisierung (Bare-Metal)**
 - Weitestgehende Ablösung ressourcenintensiver Docker-in-Docker-Virtualisierungen in der CI/CD-Pipeline zugunsten einer nativen Testausführung direkt auf physischen On-Premises-Servern (Bare-Metal).
 - Migration der Playwright-E2E-Tests zur direkten, nativen Ausführung auf den CI-Hosts mit parallelisierten Shards, wodurch Virtualisierungs-Overhead eliminiert und die Pipeline-Performance drastisch gesteigert wurde.
 - Behebung von Fehlern bei komplexen visuellen Tests in der CI-Pipeline durch den Einsatz von softwarebasiertem WebGL-Rendering.
 - Konzeption und Implementierung einer intelligenten, mehrstufigen Cleanup- und Cache-Bereinigungsarchitektur zur Beseitigung verbleibender Ressourcenkonflikte auf den Build-Servern und Gewährleistung einer lückenlosen Stabilität.
 
-**Initiative Selbstorganisation (Projekt-Frühstadium)**
-- Ausfüllen einer gestaltenden Senior- und Wegbereiterrolle im selbstorganisierten Team zur Setzung zentraler technischer Impulse, Etablierung von Qualitätsstandards und Absicherung der kontinuierlichen Lieferfähigkeit.
-- Proaktive Entwicklung und Neuausrichtung abteilungsübergreifender Abstimmungs-Workflows zwischen Produktmanagement, Fachbereichen und dem Entwicklerteam zur effizienten Klärung komplexer technischer Anforderungen.
-
-**Entwickler-Werkzeuge & AI-Workspaces (Hands-on)**
-- Konzeption und Implementierung portabler, Node.js-basierter CLI-Installer zur workflow-übergreifenden Standardisierung und teamweiten Verteilung von AI-Agent-Programmierrichtlinien.
-- Aufbau robuster, lokaler Entwicklungsumgebungen (inklusive lokaler SSL-verschlüsselter Gateways und isolierter Datenbankinstanzen) zur drastischen Vereinfachung des Onboarding-Prozesses.
-- Etablierung moderner, KI-gestützter Entwicklungsprozesse im Alltag sowie fachliches Mentoring und Anleitung des Teams beim produktiven Einsatz strukturierter AI-Hilfsmittel zur Steigerung der gesamten Produktivität.
+**Initiative Selbstorganisation & AI-Workspaces**
+- Ausfüllen einer gestaltenden Senior- und Wegbereiterrolle im selbstorganisierten Team (Projekt-Frühstadium) zur Setzung zentraler technischer Impulse, Etablierung von Qualitätsstandards und Absicherung der kontinuierlichen Lieferfähigkeit.
+- Konzeption und Implementierung interner CLI-Werkzeuge zur workflow-übergreifenden Standardisierung und teamweiten Verteilung von AI-Agent-Richtlinien sowie Etablierung moderner, KI-gestützter Entwicklungsprozesse im Alltag.
 
 _Technologien: TypeScript, Node.js, NestJS, React, Redux, RxJS, Next.js, Material-UI, MariaDB, TypeORM, GraphQL, Docker, Caddy, SwiftShader, Vitest, Playwright, Git, GitLab CI, ES Modules, Algolia, Magento, REST_
 
