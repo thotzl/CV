@@ -39,7 +39,7 @@ Fachliche und operative Mitsteuerung in einem cross-funktionalen Produktteam fü
 - Beseitigung plattformspezifischer Cloud-Bindungen (z. B. AWS S3/SES) zugunsten standardisierter, flexibler Dateisystem- und Mail-Schnittstellen zur nahtlosen Einbindung in die hauseigene Systemlandschaft.
 
 **Datenintegrität, Versionskontrolle & Aktualisierungs-Verfahren**
-- Absicherung der Datenkonsistenz historischer Planungsdaten durch direkte, flache Persistenz der Produkt-Metadaten im Plan-Dokument, wodurch unbeabsichtigte automatische Layout-Veränderungen durch spätere Katalog-Updates verhindert werden.
+- Absicherung der Datenkonsistenz historischer Planungsdaten durch direkte, flache Persistenz der Produkt-Metadaten im Plan-Dokument, wodurch unbeabsichtigte automatische Plan-Neuberechnungen durch spätere Katalog-Updates verhindert werden.
 - Implementierung eines automatisierten, eventgesteuerten Aktualisierungs- und Validierungsverfahrens, um ältere Produktversionen im Plan kontrolliert und auf Wunsch des Nutzers über Hintergrund-Systeme (Magento/Algolia) neu zu berechnen und zu validieren.
 
 **Produktsuche & API-Integration (Magento / Algolia)**
