@@ -32,10 +32,26 @@ Meine Arbeit bewegt sich bewusst über reine Implementierung hinaus: Systeme wer
 
 ## Berufserfahrung
 
+### bobbie (bobbie OS / bobbie Deutschland)
+
+**Senior Software Engineer (Fullstack)**  
+_13.04.2026 – heute_
+
+- **Systemlandschafts-Integration & API-Entkopplung:** Technologische Entkopplung übernommener Systeme von plattformspezifischen Cloud-Strukturen (AWS S3/SES) hin zu flexibleren Dateisystem- und SMTP-Schnittstellen zur nahtlosen Einbindung in die Systemlandschaft.
+- **Datenintegrität & Versionsprüfung:** Konzeption und Implementierung einer automatisierten Versionsprüfungs- und Datenvalidierungsarchitektur zur Angleichung älterer Datensätze und Produktversionen ohne Datenverluste.
+- **Produktsuche & API-Integration (Magento / Algolia):** Integration hochperformanter Such-API-Hooks (Algolia) mit modernen UI-Komponenten (Material-UI) im Frontend sowie Entwicklung robuster Migrationspfade zur dynamischen SKU-Übersetzung.
+- **CI/CD- und SRE-Optimierung:** Migration automatisierter E2E-Tests (Playwright) auf native Integrationsserver mit parallelisierten Containern (Sharding) sowie Aufbau intelligenter, mehrstufigen Docker-Bereinigungsverfahren.
+- **Developer Tooling & AI-Integration:** Konzeption und Implementierung interner CLI-Werkzeuge zur workflow-übergreifenden Standardisierung sowie Anleitung des Teams beim produktiven Einsatz moderner KI-Systeme.
+- **Team-Mentoring & Agile Organisation:** Fachliche Begleitung des Entwicklerteams sowie Koordination abteilungsübergreifender Workflows in Übergangsphasen.
+
+_Technologien: TypeScript, Node.js, NestJS, React, Redux, Next.js, Material-UI, MariaDB, TypeORM, GraphQL, Docker, Caddy, Playwright, Git, GitLab CI, ES Modules, Algolia, Magento, REST_
+
+---
+
 ### ABS Safety GmbH
 
 **Senior Software Engineer (Fullstack)**  
-_01/2021 – heute_
+_01/2021 – 12.04.2026_
 
 - Als Tech Lead fachliche Klärung, Architekturentscheidungen und Umsetzung im Team zusammengeführt und bis in den stabilen Betrieb begleitet (End-to-End-Verantwortung).
 

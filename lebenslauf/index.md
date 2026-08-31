@@ -24,10 +24,45 @@ Ergänzend übernehme ich die Rolle des technischen Impulsgebers: Ich bringe neu
 
 ## Berufserfahrung
 
+### bobbie (bobbie OS / bobbie Deutschland)
+
+**Senior Software Engineer (Fullstack)**  
+_13.04.2026 – heute_
+
+Fachliche und operative Mitsteuerung in einem cross-funktionalen Produktteam für das übernommene Kernprojekt zur Flachdachplanung („draw“). Das technologische Ziel war die Migration des Altsystems in die vorgegebene Infrastruktur von bobbieOS (u. a. Magento/Algolia) unter konsequentem Rückbau überflüssiger Legacy-Schichten und deren nahtloser Integration. Als Senior Software Engineer verantworte ich die Erarbeitung robuster Systemintegrationskonzepte, den Aufbau resilienter Datenmigrationspfade sowie die strategische Optimierung der CI/CD-Infrastruktur.
+
+**Projekte & Systemarchitektur**
+
+**Infrastruktur-Migration & API-Entkopplung**
+- Entwicklung einer asynchronen, plugin-basierten Migrations-Engine, um Altsystem-Pläne beim Import automatisiert zu erhalten, externe Medien-Ressourcen asynchron aufzulösen und lokal zu persistieren.
+- Beseitigung plattformspezifischer Cloud-Bindungen (z. B. AWS S3/SES) zugunsten standardisierter, flexibler Dateisystem- und Mail-Schnittstellen zur nahtlosen Einbindung in die hauseigene Systemlandschaft.
+
+**Datenintegrität, Versionskontrolle & Aktualisierungs-Verfahren**
+- Absicherung der Datenkonsistenz historischer Planungsdaten durch direkte, flache Persistenz der Produkt-Metadaten im Plan-Dokument, wodurch unbeabsichtigte automatische Layout-Veränderungen durch spätere Katalog-Updates verhindert werden.
+- Implementierung eines automatisierten, eventgesteuerten Aktualisierungs- und Validierungsverfahrens, um ältere Produktversionen im Plan kontrolliert und auf Wunsch des Nutzers über Hintergrund-Systeme (Magento/Algolia) neu zu berechnen und zu validieren.
+
+**Produktsuche & API-Integration (Magento / Algolia)**
+- Entwicklung einer modular wiederverwendbaren Such- und Auswahlschnittstelle durch die Verbindung von Such-API-Hooks (Algolia) mit modernen UI-Komponenten (Material-UI) im Frontend.
+- Implementierung einer automatisierten Token-Rotation zur unterbrechungsfreien Aktualisierung kurzlebiger API-Suchschlüssel im laufenden Betrieb.
+- Aufbau einer simulierten Suchumgebung (In-Memory Mock Search) mit dynamischer Facettenberechnung zur Gewährleistung vollständiger Offline-Interaktivität in lokalen Testumgebungen.
+
+**CI/CD-Transformation, Performance & Test-Stabilisierung (SRE)**
+- Migration der automatisierten Ende-zu-Ende-Tests auf native Integrationsserver mit parallelisierten Containern (Sharding) zur signifikanten Reduzierung der Pipeline-Laufzeiten.
+- Behebung von Fehlern bei komplexen visuellen Tests in der CI-Pipeline durch den Einsatz von softwarebasiertem WebGL-Rendering.
+- Konzeption und Implementierung einer intelligenten, mehrstufigen Cleanup- und Cache-Bereinigungsarchitektur zur Beseitigung von Ressourcenkonflikten auf den Build-Servern und Gewährleistung einer lückenlosen Stabilität.
+
+**Team-Mentoring & Agile Organisation**
+- Etablierung moderner, KI-gestützter Entwicklungsprozesse im Alltag sowie fachliches Mentoring und Anleitung des Teams beim Einsatz strukturierter KI-Hilfsmittel zur Steigerung der gesamten Produktivität.
+- Proaktive Organisation von Workflows und abteilungsübergreifenden Abstimmungen während personeller Übergangsphasen.
+
+_Technologien: TypeScript, Node.js, NestJS, React, Redux, RxJS, Next.js, Material-UI, MariaDB, TypeORM, GraphQL, Docker, Caddy, SwiftShader, Vitest, Playwright, Git, GitLab CI, ES Modules, Algolia, Magento, REST_
+
+---
+
 ### ABS Safety GmbH
 
 **Senior Software Engineer (Fullstack)**  
-_01/2021 – heute_
+_01/2021 – 12.04.2026_
 
 - Als Tech Lead fachliche Klärung, Architekturentscheidungen und Umsetzung im Team zusammengeführt und bis in den stabilen Betrieb begleitet (End-to-End-Verantwortung).
 - ABS Doku modernisiert (Frontend-Refactoring, Migration PHP/Symfony → TypeScript/NestJS) in technischer Leitung und teamübergreifender Abstimmung; komplexe Frontend-States stabilisiert und kritische Routen refactored (u. a. Batch-Routen).
