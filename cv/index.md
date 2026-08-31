@@ -53,9 +53,14 @@ Fachliche und operative Mitsteuerung in einem cross-funktionalen Produktteam fü
 - Behebung von Fehlern bei komplexen visuellen Tests in der CI-Pipeline durch den Einsatz von softwarebasiertem WebGL-Rendering.
 - Konzeption und Implementierung einer intelligenten, mehrstufigen Cleanup- und Cache-Bereinigungsarchitektur zur Beseitigung verbleibender Ressourcenkonflikte auf den Build-Servern und Gewährleistung einer lückenlosen Stabilität.
 
-**Team-Mentoring & Agile Organisation**
-- Etablierung moderner, KI-gestützter Entwicklungsprozesse im Alltag sowie fachliches Mentoring und Anleitung des Teams beim Einsatz strukturierter KI-Hilfsmittel zur Steigerung der gesamten Produktivität.
-- Proaktive Organisation von Workflows und abteilungsübergreifenden Abstimmungen während personeller Übergangsphasen.
+**Interims-Teamkoordination & Prozess-Restrukturierung**
+- Proaktive fachliche Koordination und Strukturierung des Entwicklerteams in einer führungslosen Interimsphase (ohne festen Tech Lead) zur Aufrechterhaltung der vollen Lieferfähigkeit.
+- Neudefinition und Etablierung abteilungsübergreifender Abstimmungs-Workflows zwischen Produktmanagement and Engineering zur effizienteren Klärung technischer Anforderungen.
+
+**Entwickler-Werkzeuge & AI-Workspaces (Hands-on)**
+- Konzeption und Implementierung portabler, Node.js-basierter CLI-Installer zur workflow-übergreifenden Standardisierung und teamweiten Verteilung von AI-Agent-Programmierrichtlinien.
+- Aufbau robuster, lokaler Entwicklungsumgebungen (inklusive lokaler SSL-verschlüsselter Gateways und isolierter Datenbankinstanzen) zur drastischen Vereinfachung des Onboarding-Prozesses.
+- Etablierung moderner, KI-gestützter Entwicklungsprozesse im Alltag sowie fachliches Mentoring und Anleitung des Teams beim produktiven Einsatz strukturierter AI-Hilfsmittel zur Steigerung der gesamten Produktivität.
 
 _Technologien: TypeScript, Node.js, NestJS, React, Redux, RxJS, Next.js, Material-UI, MariaDB, TypeORM, GraphQL, Docker, Caddy, SwiftShader, Vitest, Playwright, Git, GitLab CI, ES Modules, Algolia, Magento, REST_
 
