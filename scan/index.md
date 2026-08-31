@@ -42,7 +42,7 @@ _13.04.2026 – heute_
 - **Produktsuche & API-Integration (Magento / Algolia):** Integration hochperformanter Such-API-Hooks (Algolia) mit modernen UI-Komponenten (Material-UI) im Frontend sowie Entwicklung robuster Migrationspfade zur dynamischen SKU-Übersetzung.
 - **CI/CD- und SRE-Optimierung:** Weitestgehende Ablösung ressourcenintensiver Docker-Virtualisierungen in der Pipeline durch native Testausführung (Playwright) direkt auf bare-metal CI-Hosts zur drastischen Performance-Steigerung.
 - **Developer Tooling & AI-Integration:** Konzeption und Implementierung interner CLI-Werkzeuge zur workflow-übergreifenden Standardisierung sowie Anleitung des Teams beim produktiven Einsatz moderner KI-Systeme.
-- **Team-Mentoring & Agile Organisation:** Fachliche Begleitung des Entwicklerteams sowie Koordination abteilungsübergreifender Workflows in Übergangsphasen.
+- **Prozess-Strukturierung & Team-Initiative:** Gemeinsame Übernahme von Strukturierungsimpulsen im Senior-Kreis während einer führungslosen Phase zur Absicherung von Lieferfähigkeit und Workflows.
 
 _Technologien: TypeScript, Node.js, NestJS, React, Redux, Next.js, Material-UI, MariaDB, TypeORM, GraphQL, Docker, Caddy, Playwright, Git, GitLab CI, ES Modules, Algolia, Magento, REST_
 

@@ -53,9 +53,9 @@ Fachliche und operative Mitsteuerung in einem cross-funktionalen Produktteam fü
 - Behebung von Fehlern bei komplexen visuellen Tests in der CI-Pipeline durch den Einsatz von softwarebasiertem WebGL-Rendering.
 - Konzeption und Implementierung einer intelligenten, mehrstufigen Cleanup- und Cache-Bereinigungsarchitektur zur Beseitigung verbleibender Ressourcenkonflikte auf den Build-Servern und Gewährleistung einer lückenlosen Stabilität.
 
-**Interims-Teamkoordination & Prozess-Restrukturierung**
-- Proaktive fachliche Koordination und Strukturierung des Entwicklerteams in einer führungslosen Interimsphase (ohne festen Tech Lead) zur Aufrechterhaltung der vollen Lieferfähigkeit.
-- Neudefinition und Etablierung abteilungsübergreifender Abstimmungs-Workflows zwischen Produktmanagement and Engineering zur effizienteren Klärung technischer Anforderungen.
+**Selbstorganisierte Prozess-Strukturierung (Führungsloses Setup)**
+- Gemeinsame Übernahme von Führungs- und Strukturierungsimpulsen im Senior-Entwicklerkreis während einer führungslosen Phase zur Absicherung der kontinuierlichen Lieferfähigkeit und Projektsteuerung.
+- Proaktive Entwicklung und Neuausrichtung abteilungsübergreifender Abstimmungs-Workflows zwischen Produktmanagement, Fachbereichen und dem Entwicklerteam zur effizienten Klärung komplexer technischer Anforderungen.
 
 **Entwickler-Werkzeuge & AI-Workspaces (Hands-on)**
 - Konzeption und Implementierung portabler, Node.js-basierter CLI-Installer zur workflow-übergreifenden Standardisierung und teamweiten Verteilung von AI-Agent-Programmierrichtlinien.
