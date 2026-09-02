@@ -106,6 +106,10 @@
     display: none !important;
   }
 
+  .resume-header .secondary-info {
+    margin-top: -24px !important;
+  }
+
   .resume-header .secondary-info li {
     margin: 0 !important;
     padding: 0 !important;
