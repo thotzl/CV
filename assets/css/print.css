@@ -107,7 +107,7 @@
   }
 
   .resume-header .secondary-info {
-    margin-top: -24px !important;
+    margin-top: 0 !important;
   }
 
   .resume-header .secondary-info li {
