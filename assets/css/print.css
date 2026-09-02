@@ -41,9 +41,14 @@
   .contact-xing,
   .contact-location,
   .contact-website,
-  .contact-email {
+  .contact-email,
+  .contact-github {
     display: block !important;
     margin-bottom: 0.25rem;
+  }
+
+  .contact-github-text {
+    display: inline !important;
   }
 
   /* Hide online-only contact info in print */
