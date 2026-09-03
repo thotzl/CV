@@ -175,16 +175,20 @@
     break-before: avoid !important;
   }
 
-  /* Prevent any list block (bullet points) from splitting across pages */
+  /* Allow lists to break across pages organically to prevent huge empty gaps */
   ul, ol {
-    page-break-inside: avoid !important;
-    break-inside: avoid !important;
+    page-break-inside: auto !important;
+    break-inside: auto !important;
   }
 
-  /* Prevent page breaks before the first item of any list to keep it with its header */
+  /* Prevent "Hurenkind-Bulletpoints" (Orphans/Widows) by guaranteeing at least 2 items stay together */
   li:first-child {
-    page-break-before: avoid !important;
-    break-before: avoid !important;
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+  li:nth-last-child(2) {
+    page-break-after: avoid !important;
+    break-after: avoid !important;
   }
 
   /* Prevent individual bullet points or paragraphs from splitting vertically across pages */
