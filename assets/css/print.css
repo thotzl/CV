@@ -193,6 +193,31 @@
     break-inside: avoid !important;
   }
 
+  /* ==========================================================================
+     SRE Spacing Compression & CleanUp: Pulls content up and prevents empty end-pages
+     ========================================================================== */
+
+  /* Compact margins for print headings */
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.1rem !important;
+    margin-bottom: 0.4rem !important;
+  }
+
+  /* Compact margins for paragraphs and lists */
+  p, ul, ol {
+    margin-bottom: 0.35rem !important;
+  }
+
+  /* Compact padding for list items */
+  li {
+    margin-bottom: 0.2rem !important;
+  }
+
+  /* Compact spacing for social items in header */
+  .resume-social li {
+    margin-bottom: 0.15rem !important;
+  }
+
   /* Eliminate trailing margins/paddings and footers to prevent blank final page */
   .resume-body, 
   .resume-wrapper, 
