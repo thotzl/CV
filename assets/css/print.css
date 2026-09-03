@@ -194,28 +194,13 @@
   }
 
   /* ==========================================================================
-     SRE Spacing Compression & CleanUp: Pulls content up and prevents empty end-pages
+     SRE Target Negative Margin Hack: Prevents empty end-pages while preserving original spacing
      ========================================================================== */
 
-  /* Balanced, spacious margins for print headings */
-  h1, h2, h3, h4, h5, h6 {
-    margin-top: 1.4rem !important;
-    margin-bottom: 0.6rem !important;
-  }
-
-  /* Balanced margins for paragraphs and lists (Luftig but safe!) */
-  p, ul, ol {
-    margin-bottom: 0.5rem !important;
-  }
-
-  /* Balanced padding for list items */
-  li {
-    margin-bottom: 0.35rem !important;
-  }
-
-  /* Balanced spacing for social items in header */
-  .resume-social li {
-    margin-bottom: 0.25rem !important;
+  /* Set negative margin ONLY on the absolute last element of the CV body */
+  .resume-body > *:last-child {
+    margin-bottom: -120px !important;
+    padding-bottom: 0 !important;
   }
 
   /* Eliminate trailing margins/paddings and footers to prevent blank final page */
@@ -223,7 +208,6 @@
   .resume-wrapper, 
   .resume-wrapper-inner {
     padding-bottom: 0 !important;
-    margin-bottom: 0 !important;
   }
   
   footer, 
