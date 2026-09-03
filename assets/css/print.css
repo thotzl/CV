@@ -153,26 +153,29 @@
   }
 
   /* ==========================================================================
-     SRE Page Break Management: Prevents awkward layout gaps and split bullet points
+     SRE Page Break Management: Generic & Sibling-Agnostic
      ========================================================================== */
   
-  /* Prevent headings from being orphaned at the bottom of a page */
+  /* Prevent any heading from being orphaned at the bottom of a page */
   h1, h2, h3, h4, h5, h6 {
     page-break-after: avoid !important;
     break-after: avoid !important;
   }
 
-  /* Prevent individual bullet points or paragraphs from splitting vertically across pages */
-  li, p {
-    page-break-inside: avoid !important;
-    break-inside: avoid !important;
+  /* Prevent page breaks between any heading and its immediate following content block */
+  h1 + *, h2 + *, h3 + *, h4 + *, h5 + *, h6 + * {
+    page-break-before: avoid !important;
+    break-before: avoid !important;
   }
 
-  /* Keep job title headings, metadata (dates, roles) and the first element block together */
-  h3 + p,
-  h3 + p + p {
-    page-break-after: avoid !important;
-    break-after: avoid !important;
+  /* Prevent page breaks between any metadata paragraph and the start of its following list */
+  p + ul, p + ol {
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+  }
+
+  /* Prevent individual bullet points or paragraphs from splitting vertically across pages */
+  li, p {
     page-break-inside: avoid !important;
     break-inside: avoid !important;
   }
