@@ -192,4 +192,18 @@
     page-break-inside: avoid !important;
     break-inside: avoid !important;
   }
+
+  /* Eliminate trailing margins/paddings and footers to prevent blank final page */
+  .resume-body, 
+  .resume-wrapper, 
+  .resume-wrapper-inner {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  
+  footer, 
+  .resume-footer,
+  .site-footer {
+    display: none !important;
+  }
 }
