@@ -156,20 +156,27 @@
      SRE Page Break Management: Generic & Sibling-Agnostic
      ========================================================================== */
   
-  /* Prevent any heading from being orphaned at the bottom of a page */
+  /* Prevent any real heading from being orphaned at the bottom of a page */
   h1, h2, h3, h4, h5, h6 {
     page-break-after: avoid !important;
     break-after: avoid !important;
   }
 
-  /* Prevent page breaks between any heading and its immediate following content block */
-  h1 + *, h2 + *, h3 + *, h4 + *, h5 + *, h6 + * {
+  /* Prevent any bold paragraph (your project-headlines) from being orphaned */
+  p:has(strong) {
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+
+  /* Prevent page breaks between any heading or bold paragraph and its next sibling */
+  h1 + *, h2 + *, h3 + *, h4 + *, h5 + *, h6 + *,
+  p:has(strong) + * {
     page-break-before: avoid !important;
     break-before: avoid !important;
   }
 
-  /* Prevent page breaks between any metadata paragraph and the start of its following list */
-  p + ul, p + ol {
+  /* Prevent page breaks before the first item of any list to keep it with its header */
+  li:first-child {
     page-break-before: avoid !important;
     break-before: avoid !important;
   }
