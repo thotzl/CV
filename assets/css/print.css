@@ -175,6 +175,12 @@
     break-before: avoid !important;
   }
 
+  /* Prevent any list block (bullet points) from splitting across pages */
+  ul, ol {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
   /* Prevent page breaks before the first item of any list to keep it with its header */
   li:first-child {
     page-break-before: avoid !important;
